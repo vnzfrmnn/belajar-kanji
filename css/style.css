@@ -1445,6 +1445,48 @@ body.is-gated {
   min-height: 46px;
 }
 
+/* Baris ikon sosial di kartu gerbang — antara tombol submit dan copyright.
+   Ikon ~21px di area sentuh 40x40, muted → primary saat hover/focus. */
+.gate-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: var(--spacing-md);
+}
+
+.gate-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  color: var(--color-text-tertiary);
+  transition: color 0.15s ease, background-color 0.15s ease, transform 0.1s ease;
+}
+
+.gate-social-link:hover {
+  color: var(--color-primary);
+  background: color-mix(in srgb, var(--color-primary) 12%, transparent);
+}
+
+.gate-social-link:focus-visible {
+  color: var(--color-primary);
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.gate-social-link:active {
+  transform: scale(0.94);
+}
+
+/* Override ukuran .footer-icon (16px) hanya di dalam baris gerbang */
+.gate-socials .footer-icon {
+  width: 21px;
+  height: 21px;
+}
+
 .gate-copy {
   margin-top: var(--spacing-lg);
   padding-top: var(--spacing-md);
@@ -1468,6 +1510,23 @@ body.is-gated {
 @media (max-width: 359px) {
   .gate-card {
     padding: var(--spacing-lg) var(--spacing-md) var(--spacing-md);
+  }
+}
+
+/* Layar pendek: baris sosial menambah tinggi kartu → rapatkan sedikit
+   supaya kartu tetap nyaman tanpa scroll di 360x640. */
+@media (max-height: 740px) {
+  .gate-card {
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-md);
+  }
+
+  .gate-socials {
+    margin-top: var(--spacing-sm);
+  }
+
+  .gate-copy {
+    margin-top: var(--spacing-md);
   }
 }
 

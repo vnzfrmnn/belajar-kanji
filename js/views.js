@@ -1325,11 +1325,30 @@ window.Views = (function() {
 
     const form = el('form', { className: 'gate-form', noValidate: true }, input, error, submit);
 
+    // Baris ikon sosial — murni <a> asli dari SOCIAL_LINKS (sumber kebenaran
+    // yang sama dengan header/footer), tanpa wiring JS. Tiga anchor: Instagram,
+    // TikTok, GitHub (href-nya dari SOCIAL_LINKS: instagram.com/vnzfrmnn_,
+    // tiktok.com/@vnzfrmnn, github.com/vnzfrmnn).
+    // Ditempatkan DI LUAR form, antara tombol "Buka Aplikasi" dan copyright.
+    const socials = el('div', { className: 'gate-socials', 'aria-label': 'Sosial media Vanzy' },
+      SOCIAL_LINKS.map(item =>
+        el('a', {
+          className: 'gate-social-link',
+          href: item.href,
+          target: '_blank',
+          rel: 'noopener noreferrer',
+          'aria-label': `${item.label} Vanzy`,
+          title: item.label
+        }, socialIcon(item.label))
+      )
+    );
+
     const card = el('div', { className: 'gate-card' },
       el('div', { className: 'gate-icon' }, icon),
       el('h1', { className: 'gate-title' }, 'Belajar Kanji'),
       el('p', { className: 'gate-sub' }, 'Masukkan kode akses untuk melanjutkan'),
       form,
+      socials,
       el('div', { className: 'gate-copy' }, `© ${year} Vanzy — Dibuat oleh Vanzy`)
     );
 
