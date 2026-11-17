@@ -1,0 +1,2690 @@
+[
+  {
+    "id": "1",
+    "no": 1,
+    "kanji": "一",
+    "tipe": "kanji",
+    "bacaan": [
+      "いち"
+    ],
+    "arti": "Satu",
+    "blok": 1,
+    "catatan": [],
+    "raw": "1. 一 いち Satu"
+  },
+  {
+    "id": "2",
+    "no": 2,
+    "kanji": "二",
+    "tipe": "kanji",
+    "bacaan": [
+      "に"
+    ],
+    "arti": "Dua",
+    "blok": 1,
+    "catatan": [],
+    "raw": "2. 二 に Dua"
+  },
+  {
+    "id": "3",
+    "no": 3,
+    "kanji": "三",
+    "tipe": "kanji",
+    "bacaan": [
+      "さん"
+    ],
+    "arti": "Tiga",
+    "blok": 1,
+    "catatan": [],
+    "raw": "3. 三 さん Tiga"
+  },
+  {
+    "id": "4",
+    "no": 4,
+    "kanji": "四",
+    "tipe": "kanji",
+    "bacaan": [
+      "よん",
+      "し"
+    ],
+    "arti": "Empat",
+    "blok": 1,
+    "catatan": [],
+    "raw": "4. 四 よん、し Empat"
+  },
+  {
+    "id": "5",
+    "no": 5,
+    "kanji": "五",
+    "tipe": "kanji",
+    "bacaan": [
+      "ご"
+    ],
+    "arti": "Lima",
+    "blok": 1,
+    "catatan": [],
+    "raw": "5. 五 ご Lima"
+  },
+  {
+    "id": "6",
+    "no": 6,
+    "kanji": "六",
+    "tipe": "kanji",
+    "bacaan": [
+      "ろく"
+    ],
+    "arti": "Enam",
+    "blok": 1,
+    "catatan": [],
+    "raw": "6.六 ろく Enam"
+  },
+  {
+    "id": "7",
+    "no": 7,
+    "kanji": "七",
+    "tipe": "kanji",
+    "bacaan": [
+      "なな",
+      "しち"
+    ],
+    "arti": "Tujuh",
+    "blok": 1,
+    "catatan": [],
+    "raw": "7. 七 なな、しち Tujuh"
+  },
+  {
+    "id": "8",
+    "no": 8,
+    "kanji": "八",
+    "tipe": "kanji",
+    "bacaan": [
+      "はち"
+    ],
+    "arti": "Delapan",
+    "blok": 1,
+    "catatan": [],
+    "raw": "8. 八 はち Delapan"
+  },
+  {
+    "id": "9",
+    "no": 9,
+    "kanji": "九",
+    "tipe": "kanji",
+    "bacaan": [
+      "きゅう",
+      "く"
+    ],
+    "arti": "Sembilan",
+    "blok": 1,
+    "catatan": [],
+    "raw": "9. 九 きゅう、く Sembilan"
+  },
+  {
+    "id": "10",
+    "no": 10,
+    "kanji": "十",
+    "tipe": "kanji",
+    "bacaan": [
+      "じゅう"
+    ],
+    "arti": "Sepuluh",
+    "blok": 1,
+    "catatan": [],
+    "raw": "10. 十 じゅう Sepuluh"
+  },
+  {
+    "id": "11",
+    "no": 11,
+    "kanji": "二つ",
+    "tipe": "kanji",
+    "bacaan": [
+      "ふたつ"
+    ],
+    "arti": "Dua Buah",
+    "blok": 1,
+    "catatan": [],
+    "raw": "11. 二つ ふたつ Dua Buah"
+  },
+  {
+    "id": "12",
+    "no": 12,
+    "kanji": "一つ",
+    "tipe": "kanji",
+    "bacaan": [
+      "ひとつ"
+    ],
+    "arti": "Satu Buah",
+    "blok": 1,
+    "catatan": [],
+    "raw": "12. 一つ ひとつ Satu Buah"
+  },
+  {
+    "id": "13",
+    "no": 13,
+    "kanji": "朝",
+    "tipe": "kanji",
+    "bacaan": [
+      "あさ",
+      "ちょう"
+    ],
+    "arti": "Pagi",
+    "blok": 1,
+    "catatan": [],
+    "raw": "13. 朝 あさ、ちょう Pagi"
+  },
+  {
+    "id": "14",
+    "no": 14,
+    "kanji": "昼",
+    "tipe": "kanji",
+    "bacaan": [
+      "ひる",
+      "ちゅう"
+    ],
+    "arti": "Siang",
+    "blok": 1,
+    "catatan": [],
+    "raw": "14. 昼 ひる,ちゅう Siang"
+  },
+  {
+    "id": "15",
+    "no": 15,
+    "kanji": "休む",
+    "tipe": "kanji",
+    "bacaan": [
+      "やすむ",
+      "きゅう"
+    ],
+    "arti": "istirahat",
+    "blok": 1,
+    "catatan": [],
+    "raw": "15.休む やすむ、きゅうistirahat"
+  },
+  {
+    "id": "16",
+    "no": 16,
+    "kanji": "昼休み",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ひるやすみ"
+    ],
+    "arti": "Istirahat Siang",
+    "blok": 1,
+    "catatan": [],
+    "raw": "16. 昼休み ひるやすみ Istirahat Siang"
+  },
+  {
+    "id": "17",
+    "no": 17,
+    "kanji": "食べる",
+    "tipe": "kanji",
+    "bacaan": [
+      "たべる",
+      "しょく"
+    ],
+    "arti": "Makan",
+    "blok": 1,
+    "catatan": [],
+    "raw": "17. 食べる たべる、しょくMakan"
+  },
+  {
+    "id": "18",
+    "no": 18,
+    "kanji": "食堂",
+    "tipe": "kosakata",
+    "bacaan": [
+      "しょくどう"
+    ],
+    "arti": "dapur",
+    "blok": 1,
+    "catatan": [],
+    "raw": "18.食堂 しょくどう dapur"
+  },
+  {
+    "id": "19",
+    "no": 19,
+    "kanji": "昼食",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ちゅうしょく"
+    ],
+    "arti": "Makan Siang",
+    "blok": 1,
+    "catatan": [],
+    "raw": "19. 昼食 ちゅうしょく Makan Siang"
+  },
+  {
+    "id": "20",
+    "no": 20,
+    "kanji": "寝ます",
+    "tipe": "kanji",
+    "bacaan": [
+      "ねます"
+    ],
+    "arti": "tidur",
+    "blok": 1,
+    "catatan": [],
+    "raw": "20.寝ます ねます tidur"
+  },
+  {
+    "id": "21",
+    "no": 21,
+    "kanji": "今",
+    "tipe": "kanji",
+    "bacaan": [
+      "いま",
+      "こん",
+      "こ",
+      "け"
+    ],
+    "arti": "Sekarang",
+    "blok": 1,
+    "catatan": [],
+    "raw": "21. 今 いま、こん、こ、け Sekarang"
+  },
+  {
+    "id": "22",
+    "no": 22,
+    "kanji": "今回",
+    "tipe": "kosakata",
+    "bacaan": [
+      "こんかい"
+    ],
+    "arti": "Kali Ini",
+    "blok": 1,
+    "catatan": [],
+    "raw": "22.今回 こんかい Kali Ini"
+  },
+  {
+    "id": "23",
+    "no": 23,
+    "kanji": "今度",
+    "tipe": "kosakata",
+    "bacaan": [
+      "こんど"
+    ],
+    "arti": "Lain Kali",
+    "blok": 1,
+    "catatan": [],
+    "raw": "23. 今度 こんど Lain Kali"
+  },
+  {
+    "id": "24",
+    "no": 24,
+    "kanji": "今晩",
+    "tipe": "kosakata",
+    "bacaan": [
+      "こんばん"
+    ],
+    "arti": "Malam Ini",
+    "blok": 1,
+    "catatan": [],
+    "raw": "24. 今晩 こんばん Malam Ini"
+  },
+  {
+    "id": "25",
+    "no": 25,
+    "kanji": "今朝",
+    "tipe": "kosakata",
+    "bacaan": [
+      "けさ"
+    ],
+    "arti": "tadi pagi",
+    "blok": 1,
+    "catatan": [],
+    "raw": "25.今朝 けさ tadi pagi"
+  },
+  {
+    "id": "26",
+    "no": 26,
+    "kanji": "明るい",
+    "tipe": "kanji",
+    "bacaan": [
+      "あかるい",
+      "めい"
+    ],
+    "arti": "terang",
+    "blok": 1,
+    "catatan": [],
+    "raw": "26.明るい あかるい、めい terang"
+  },
+  {
+    "id": "27",
+    "no": 27,
+    "kanji": "明日",
+    "tipe": "kosakata",
+    "bacaan": [
+      "あした",
+      "あす"
+    ],
+    "arti": "Besok",
+    "blok": 1,
+    "catatan": [],
+    "raw": "27. 明日 あした/あす Besok"
+  },
+  {
+    "id": "28",
+    "no": 28,
+    "kanji": "説明します",
+    "tipe": "kosakata",
+    "bacaan": [
+      "せつめいします"
+    ],
+    "arti": "menjelaskan",
+    "blok": 1,
+    "catatan": [],
+    "raw": "28.説明します せつめいします menjelaskan"
+  },
+  {
+    "id": "29",
+    "no": 29,
+    "kanji": "昨日",
+    "tipe": "kosakata",
+    "bacaan": [
+      "きのう"
+    ],
+    "arti": "Kemarin",
+    "blok": 1,
+    "catatan": [],
+    "raw": "29. 昨日 きのう Kemarin"
+  },
+  {
+    "id": "30",
+    "no": 30,
+    "kanji": "週",
+    "tipe": "kanji",
+    "bacaan": [
+      "しゅう"
+    ],
+    "arti": "Minggu",
+    "blok": 1,
+    "catatan": [],
+    "raw": "30. 週 しゅう Minggu"
+  },
+  {
+    "id": "31",
+    "no": 31,
+    "kanji": "一週間",
+    "tipe": "kosakata",
+    "bacaan": [
+      "いっしゅうかん"
+    ],
+    "arti": "Satu Minggu",
+    "blok": 1,
+    "catatan": [],
+    "raw": "31. 一週間 いっしゅうかん Satu Minggu"
+  },
+  {
+    "id": "32",
+    "no": 32,
+    "kanji": "四週間",
+    "tipe": "kosakata",
+    "bacaan": [
+      "よんしゅうかん"
+    ],
+    "arti": "Empat Minggu",
+    "blok": 1,
+    "catatan": [],
+    "raw": "32.四週間 よんしゅうかん Empat Minggu"
+  },
+  {
+    "id": "33",
+    "no": 33,
+    "kanji": "今週",
+    "tipe": "kosakata",
+    "bacaan": [
+      "こんしゅう"
+    ],
+    "arti": "minggu ini",
+    "blok": 1,
+    "catatan": [],
+    "raw": "33. 今週 こんしゅう minggu ini"
+  },
+  {
+    "id": "34",
+    "no": 34,
+    "kanji": "米",
+    "tipe": "kanji",
+    "bacaan": [
+      "こめ",
+      "べい"
+    ],
+    "arti": "beras",
+    "blok": 1,
+    "catatan": [],
+    "raw": "34. 米 こめ、べい beras"
+  },
+  {
+    "id": "35",
+    "no": 35,
+    "kanji": "来る",
+    "tipe": "kanji",
+    "bacaan": [
+      "くる",
+      "らい"
+    ],
+    "arti": "datang",
+    "blok": 1,
+    "catatan": [],
+    "raw": "35.来る くる、らい datang"
+  },
+  {
+    "id": "36",
+    "no": 36,
+    "kanji": "来週",
+    "tipe": "kosakata",
+    "bacaan": [
+      "らいしゅう"
+    ],
+    "arti": "minggu depan",
+    "blok": 1,
+    "catatan": [],
+    "raw": "36.来週 らいしゅう minggu depan"
+  },
+  {
+    "id": "37",
+    "no": 37,
+    "kanji": "先週",
+    "tipe": "kosakata",
+    "bacaan": [
+      "せんしゅう"
+    ],
+    "arti": "minggu lalu",
+    "blok": 1,
+    "catatan": [],
+    "raw": "37.先週 せんしゅう minggu lalu"
+  },
+  {
+    "id": "38",
+    "no": 38,
+    "kanji": "週末",
+    "tipe": "kosakata",
+    "bacaan": [
+      "しゅうまつ"
+    ],
+    "arti": "akhir pekan",
+    "blok": 1,
+    "catatan": [],
+    "raw": "38.週末 しゅうまつ akhir pekan"
+  },
+  {
+    "id": "39",
+    "no": 39,
+    "kanji": "先",
+    "tipe": "kanji",
+    "bacaan": [
+      "さき",
+      "せん"
+    ],
+    "arti": "depan,tujuan",
+    "blok": 1,
+    "catatan": [],
+    "raw": "39.先 さき、せん depan,tujuan"
+  },
+  {
+    "id": "40",
+    "no": 40,
+    "kanji": "先生",
+    "tipe": "kosakata",
+    "bacaan": [
+      "せんせい"
+    ],
+    "arti": "guru",
+    "blok": 1,
+    "catatan": [],
+    "raw": "40.先生 せんせい guru"
+  },
+  {
+    "id": "41",
+    "no": 41,
+    "kanji": "生きる",
+    "tipe": "kanji",
+    "bacaan": [
+      "いきる",
+      "う",
+      "せい",
+      "じょう"
+    ],
+    "arti": "hidup",
+    "blok": 1,
+    "catatan": [],
+    "raw": "41.生きる いきる、う、せい、じょう hidup"
+  },
+  {
+    "id": "42",
+    "no": 42,
+    "kanji": "生まれます",
+    "tipe": "kanji",
+    "bacaan": [
+      "うまれます"
+    ],
+    "arti": "lahir",
+    "blok": 1,
+    "catatan": [],
+    "raw": "42.生まれます うまれます lahir"
+  },
+  {
+    "id": "43",
+    "no": 43,
+    "kanji": "学生",
+    "tipe": "kosakata",
+    "bacaan": [
+      "がくせい"
+    ],
+    "arti": "pelajar",
+    "blok": 1,
+    "catatan": [],
+    "raw": "43.学生 がくせい pelajar"
+  },
+  {
+    "id": "44",
+    "no": 44,
+    "kanji": "生徒",
+    "tipe": "kosakata",
+    "bacaan": [
+      "せいと"
+    ],
+    "arti": "siswa",
+    "blok": 1,
+    "catatan": [],
+    "raw": "44.生徒 せいと siswa"
+  },
+  {
+    "id": "45",
+    "no": 45,
+    "kanji": "生活",
+    "tipe": "kosakata",
+    "bacaan": [
+      "せいかつ"
+    ],
+    "arti": "kehidupan",
+    "blok": 1,
+    "catatan": [],
+    "raw": "45.生活 せいかつ kehidupan"
+  },
+  {
+    "id": "46",
+    "no": 46,
+    "kanji": "性格",
+    "tipe": "kosakata",
+    "bacaan": [
+      "せいかく"
+    ],
+    "arti": "kepribadian",
+    "blok": 1,
+    "catatan": [],
+    "raw": "46.性格 せいかく kepribadian"
+  },
+  {
+    "id": "47",
+    "no": 47,
+    "kanji": "動く",
+    "tipe": "kanji",
+    "bacaan": [
+      "うごく",
+      "どう"
+    ],
+    "arti": "bergerak",
+    "blok": 1,
+    "catatan": [],
+    "raw": "47. 動く うごく、どう bergerak"
+  },
+  {
+    "id": "48",
+    "no": 48,
+    "kanji": "活動",
+    "tipe": "kosakata",
+    "bacaan": [
+      "かつどう"
+    ],
+    "arti": "aktivitas",
+    "blok": 1,
+    "catatan": [],
+    "raw": "48.活動 かつどう aktivitas"
+  },
+  {
+    "id": "49",
+    "no": 49,
+    "kanji": "自動車",
+    "tipe": "kosakata",
+    "bacaan": [
+      "じどうしゃ"
+    ],
+    "arti": "Mobil",
+    "blok": 1,
+    "catatan": [],
+    "raw": "49. 自動車 じどうしゃ Mobil"
+  },
+  {
+    "id": "50",
+    "no": 50,
+    "kanji": "自転車",
+    "tipe": "kosakata",
+    "bacaan": [
+      "じてんしゃ"
+    ],
+    "arti": "Sepeda",
+    "blok": 1,
+    "catatan": [],
+    "raw": "50. 自転車 じてんしゃ Sepeda"
+  },
+  {
+    "id": "51",
+    "no": 51,
+    "kanji": "動物園",
+    "tipe": "kosakata",
+    "bacaan": [
+      "どうぶつえん"
+    ],
+    "arti": "kebun binatang",
+    "blok": 2,
+    "catatan": [],
+    "raw": "51.動物園 どうぶつえん kebun binatang"
+  },
+  {
+    "id": "52",
+    "no": 52,
+    "kanji": "遊ぶ",
+    "tipe": "kanji",
+    "bacaan": [
+      "あそ-ぶ",
+      "ゆう"
+    ],
+    "arti": "bermain",
+    "blok": 2,
+    "catatan": [],
+    "raw": "52. 遊ぶ あそ-ぶ、ゆう bermain"
+  },
+  {
+    "id": "53",
+    "no": 53,
+    "kanji": "遊園地",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ゆうえんち"
+    ],
+    "arti": "taman bermain",
+    "blok": 2,
+    "catatan": [],
+    "raw": "53.遊園地 : ゆうえんち taman bermain"
+  },
+  {
+    "id": "54",
+    "no": 54,
+    "kanji": "広い",
+    "tipe": "kanji",
+    "bacaan": [
+      "ひろい",
+      "こう"
+    ],
+    "arti": "luas",
+    "blok": 2,
+    "catatan": [],
+    "raw": "54.広い ひろい、こう luas"
+  },
+  {
+    "id": "55",
+    "no": 55,
+    "kanji": "公園",
+    "tipe": "kosakata",
+    "bacaan": [
+      "こうえん"
+    ],
+    "arti": "taman",
+    "blok": 2,
+    "catatan": [],
+    "raw": "55.公園 こうえん taman"
+  },
+  {
+    "id": "56",
+    "no": 56,
+    "kanji": "運ぶ",
+    "tipe": "kanji",
+    "bacaan": [
+      "はこぶ",
+      "うん"
+    ],
+    "arti": "mengangkut",
+    "blok": 2,
+    "catatan": [],
+    "raw": "56.運ぶ はこぶ、うん mengangkut"
+  },
+  {
+    "id": "57",
+    "no": 57,
+    "kanji": "運動",
+    "tipe": "kosakata",
+    "bacaan": [
+      "うんどう"
+    ],
+    "arti": "Olahraga",
+    "blok": 2,
+    "catatan": [],
+    "raw": "57. 運動 うんどう Olahraga"
+  },
+  {
+    "id": "58",
+    "no": 58,
+    "kanji": "転ぶ",
+    "tipe": "kanji",
+    "bacaan": [
+      "ころぶ",
+      "てん"
+    ],
+    "arti": "jatuh",
+    "blok": 2,
+    "catatan": [],
+    "raw": "58. 転ぶ ころぶ、てんjatuh"
+  },
+  {
+    "id": "59",
+    "no": 59,
+    "kanji": "運転者",
+    "tipe": "kosakata",
+    "bacaan": [
+      "うんてんしゃ"
+    ],
+    "arti": "Pengemudi",
+    "blok": 2,
+    "catatan": [],
+    "raw": "59. 運転者 うんてんしゃ Pengemudi"
+  },
+  {
+    "id": "60",
+    "no": 60,
+    "kanji": "運転手",
+    "tipe": "kosakata",
+    "bacaan": [
+      "うんてんしゅ"
+    ],
+    "arti": "Pengemudi",
+    "blok": 2,
+    "catatan": [],
+    "raw": "60. 運転手 うんてんしゅ Pengemudi"
+  },
+  {
+    "id": "61",
+    "no": 61,
+    "kanji": "働く",
+    "tipe": "kanji",
+    "bacaan": [
+      "はたらく",
+      "どう"
+    ],
+    "arti": "bekerja",
+    "blok": 2,
+    "catatan": [],
+    "raw": "61.働く はたらく、どう bekerja"
+  },
+  {
+    "id": "62",
+    "no": 62,
+    "kanji": "見る",
+    "tipe": "kanji",
+    "bacaan": [
+      "みる",
+      "けん"
+    ],
+    "arti": "Melihat",
+    "blok": 2,
+    "catatan": [],
+    "raw": "62見る みる、けんMelihat"
+  },
+  {
+    "id": "63",
+    "no": 63,
+    "kanji": "学ぶ",
+    "tipe": "kanji",
+    "bacaan": [
+      "まなぶ",
+      "がく",
+      "がっ"
+    ],
+    "arti": "Mempelajari",
+    "blok": 2,
+    "catatan": [],
+    "raw": "63. 学ぶ まなぶ、がく、がっ Mempelajari"
+  },
+  {
+    "id": "64",
+    "no": 64,
+    "kanji": "見学",
+    "tipe": "kosakata",
+    "bacaan": [
+      "けんがく"
+    ],
+    "arti": "meninjau",
+    "blok": 2,
+    "catatan": [],
+    "raw": "64.見学 けんがく meninjau"
+  },
+  {
+    "id": "65",
+    "no": 65,
+    "kanji": "見物",
+    "tipe": "kosakata",
+    "bacaan": [
+      "けんぶつ"
+    ],
+    "arti": "melancong",
+    "blok": 2,
+    "catatan": [],
+    "raw": "65.見物 けんぶつ melancong"
+  },
+  {
+    "id": "66",
+    "no": 66,
+    "kanji": "政治",
+    "tipe": "kosakata",
+    "bacaan": [
+      "せいじ"
+    ],
+    "arti": "politik",
+    "blok": 2,
+    "catatan": [],
+    "raw": "66.政治 せいじ politik"
+  },
+  {
+    "id": "67",
+    "no": 67,
+    "kanji": "林",
+    "tipe": "kanji",
+    "bacaan": [
+      "はやし",
+      "りん"
+    ],
+    "arti": "pegunungan/hutan",
+    "blok": 2,
+    "catatan": [],
+    "raw": "67.林 はやし 、りん pegunungan/hutan"
+  },
+  {
+    "id": "68",
+    "no": 68,
+    "kanji": "森",
+    "tipe": "kanji",
+    "bacaan": [
+      "もり",
+      "しん"
+    ],
+    "arti": "hutan rimba",
+    "blok": 2,
+    "catatan": [],
+    "raw": "68. 森 もり、しん hutan rimba"
+  },
+  {
+    "id": "69",
+    "no": 69,
+    "kanji": "森林",
+    "tipe": "kosakata",
+    "bacaan": [
+      "しんりん"
+    ],
+    "arti": "hutan",
+    "blok": 2,
+    "catatan": [],
+    "raw": "69.森林 しんりん hutan"
+  },
+  {
+    "id": "70",
+    "no": 70,
+    "kanji": "世界",
+    "tipe": "kosakata",
+    "bacaan": [
+      "せかい"
+    ],
+    "arti": "dunia",
+    "blok": 2,
+    "catatan": [],
+    "raw": "70.世界 せかい dunia"
+  },
+  {
+    "id": "71",
+    "no": 71,
+    "kanji": "何",
+    "tipe": "kanji",
+    "bacaan": [
+      "なに",
+      "なん"
+    ],
+    "arti": "apa",
+    "blok": 2,
+    "catatan": [],
+    "raw": "71.何 なに 、なん apa"
+  },
+  {
+    "id": "72",
+    "no": 72,
+    "kanji": "何語",
+    "tipe": "kosakata",
+    "bacaan": [
+      "なにご"
+    ],
+    "arti": "bahasa apa",
+    "blok": 2,
+    "catatan": [],
+    "raw": "72.何語 なにご bahasa apa"
+  },
+  {
+    "id": "73",
+    "no": 73,
+    "kanji": "物",
+    "tipe": "kanji",
+    "bacaan": [
+      "もの",
+      "もつ",
+      "ぶつ"
+    ],
+    "arti": "benda",
+    "blok": 2,
+    "catatan": [],
+    "raw": "73.物 もの、もつ、ぶつ benda"
+  },
+  {
+    "id": "74",
+    "no": 74,
+    "kanji": "荷物",
+    "tipe": "kosakata",
+    "bacaan": [
+      "にもつ"
+    ],
+    "arti": "barang bawaan",
+    "blok": 2,
+    "catatan": [],
+    "raw": "74.荷物 にもつ barang bawaan"
+  },
+  {
+    "id": "74b",
+    "no": 74,
+    "kanji": "動物",
+    "tipe": "kosakata",
+    "bacaan": [
+      "どうぶつ"
+    ],
+    "arti": "hewan",
+    "blok": 2,
+    "catatan": [],
+    "raw": "74.動物 どうぶつ hewan"
+  },
+  {
+    "id": "75",
+    "no": 75,
+    "kanji": "品物",
+    "tipe": "kosakata",
+    "bacaan": [
+      "しなもの"
+    ],
+    "arti": "barang",
+    "blok": 2,
+    "catatan": [],
+    "raw": "75.品物 しなもの barang"
+  },
+  {
+    "id": "76",
+    "no": 76,
+    "kanji": "建てます",
+    "tipe": "kanji",
+    "bacaan": [
+      "たてます"
+    ],
+    "arti": "membangun",
+    "blok": 2,
+    "catatan": [],
+    "raw": "76.建てますたてます membangun"
+  },
+  {
+    "id": "77",
+    "no": 77,
+    "kanji": "建物",
+    "tipe": "kosakata",
+    "bacaan": [
+      "たてもの"
+    ],
+    "arti": "bangunan",
+    "blok": 2,
+    "catatan": [],
+    "raw": "77.建物 たてもの bangunan"
+  },
+  {
+    "id": "78",
+    "no": 78,
+    "kanji": "着物",
+    "tipe": "kosakata",
+    "bacaan": [
+      "きもの"
+    ],
+    "arti": "kimono",
+    "blok": 2,
+    "catatan": [],
+    "raw": "78.着物 きもの kimono"
+  },
+  {
+    "id": "79",
+    "no": 79,
+    "kanji": "買います",
+    "tipe": "kanji",
+    "bacaan": [
+      "かいます"
+    ],
+    "arti": "membeli",
+    "blok": 2,
+    "catatan": [],
+    "raw": "79買います かいます membeli"
+  },
+  {
+    "id": "80",
+    "no": 80,
+    "kanji": "買物",
+    "tipe": "kosakata",
+    "bacaan": [
+      "かいもの"
+    ],
+    "arti": "belanjaan",
+    "blok": 2,
+    "catatan": [],
+    "raw": "80.買物 かいもの belanjaan"
+  },
+  {
+    "id": "81",
+    "no": 81,
+    "kanji": "場",
+    "tipe": "kanji",
+    "bacaan": [
+      "ば",
+      "じょう"
+    ],
+    "arti": null,
+    "blok": 2,
+    "catatan": [
+      "perlu dicek"
+    ],
+    "raw": "81.場 : ば 、じょう"
+  },
+  {
+    "id": "82",
+    "no": 82,
+    "kanji": "工場",
+    "tipe": "kosakata",
+    "bacaan": [
+      "こうじょう"
+    ],
+    "arti": "pabrik",
+    "blok": 2,
+    "catatan": [],
+    "raw": "82工場 : こうじょう pabrik"
+  },
+  {
+    "id": "83",
+    "no": 83,
+    "kanji": "場所",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ばしょ"
+    ],
+    "arti": "tempat",
+    "blok": 2,
+    "catatan": [],
+    "raw": "83場所 : ばしょtempat"
+  },
+  {
+    "id": "84",
+    "no": 84,
+    "kanji": "会う",
+    "tipe": "kanji",
+    "bacaan": [
+      "あう",
+      "かい"
+    ],
+    "arti": "bertemu",
+    "blok": 2,
+    "catatan": [],
+    "raw": "84会う あう、かい bertemu"
+  },
+  {
+    "id": "85",
+    "no": 85,
+    "kanji": "会場",
+    "tipe": "kosakata",
+    "bacaan": [
+      "かいじょう"
+    ],
+    "arti": "tempat rapat/pertemuan",
+    "blok": 2,
+    "catatan": [],
+    "raw": "85.会場 かいじょう tempat rapat/pertemuan"
+  },
+  {
+    "id": "86",
+    "no": 86,
+    "kanji": "駐車場",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ちゅうしゃじょう"
+    ],
+    "arti": "tempat parkir mobil",
+    "blok": 2,
+    "catatan": [],
+    "raw": "86.駐車場 ちゅうしゃじょう tempat parkir mobil"
+  },
+  {
+    "id": "87",
+    "no": 87,
+    "kanji": "駐輪場",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ちゅうりんじょう"
+    ],
+    "arti": "tempat parkir Sepeda",
+    "blok": 2,
+    "catatan": [],
+    "raw": "87.駐輪場 ちゅうりんじょう tempat parkir Sepeda"
+  },
+  {
+    "id": "88",
+    "no": 88,
+    "kanji": "広場",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ひろば"
+    ],
+    "arti": "Lapangan",
+    "blok": 2,
+    "catatan": [],
+    "raw": "88.広場 ひろば Lapangan"
+  },
+  {
+    "id": "89",
+    "no": 89,
+    "kanji": "所",
+    "tipe": "kanji",
+    "bacaan": [
+      "ところ",
+      "しょ",
+      "じょ"
+    ],
+    "arti": "Tempat",
+    "blok": 2,
+    "catatan": [],
+    "raw": "89.所 ところ、しょ、じょ Tempat"
+  },
+  {
+    "id": "90",
+    "no": 90,
+    "kanji": "近い",
+    "tipe": "kanji",
+    "bacaan": [
+      "ちかい",
+      "きん"
+    ],
+    "arti": "dekat",
+    "blok": 2,
+    "catatan": [],
+    "raw": "90.近い ちかい、きん dekat"
+  },
+  {
+    "id": "91",
+    "no": 91,
+    "kanji": "場所",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ばしょ"
+    ],
+    "arti": "Tempat",
+    "blok": 2,
+    "catatan": [],
+    "raw": "91場所 ばしょ Tempat"
+  },
+  {
+    "id": "92",
+    "no": 92,
+    "kanji": "台所",
+    "tipe": "kosakata",
+    "bacaan": [
+      "だいどころ"
+    ],
+    "arti": "Dapur",
+    "blok": 2,
+    "catatan": [],
+    "raw": "92台所 だいどころ Dapur"
+  },
+  {
+    "id": "93",
+    "no": 93,
+    "kanji": "近所",
+    "tipe": "kosakata",
+    "bacaan": [
+      "きんじょ"
+    ],
+    "arti": "Tetangga",
+    "blok": 2,
+    "catatan": [],
+    "raw": "93近所 きんじょ Tetangga"
+  },
+  {
+    "id": "94",
+    "no": 94,
+    "kanji": "近道",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ちかみち"
+    ],
+    "arti": "JalaPintas",
+    "blok": 2,
+    "catatan": [],
+    "raw": "94近道 ちかみち JalaPintas"
+  },
+  {
+    "id": "95",
+    "no": 95,
+    "kanji": "お湯",
+    "tipe": "kanji",
+    "bacaan": [
+      "おゆ"
+    ],
+    "arti": "air panas",
+    "blok": 2,
+    "catatan": [],
+    "raw": "95.お湯 おゆ air panas"
+  },
+  {
+    "id": "96",
+    "no": 96,
+    "kanji": "住所",
+    "tipe": "kosakata",
+    "bacaan": [
+      "じゅうしょ"
+    ],
+    "arti": "Alamat",
+    "blok": 2,
+    "catatan": [],
+    "raw": "96住所 じゅうしょ Alamat"
+  },
+  {
+    "id": "97",
+    "no": 97,
+    "kanji": "風",
+    "tipe": "kanji",
+    "bacaan": [
+      "かぜ",
+      "ふう",
+      "ふ"
+    ],
+    "arti": "angin",
+    "blok": 2,
+    "catatan": [],
+    "raw": "97風 = かぜ 、ふう、ふ angin"
+  },
+  {
+    "id": "98",
+    "no": 98,
+    "kanji": "台風",
+    "tipe": "kosakata",
+    "bacaan": [
+      "たいふう"
+    ],
+    "arti": "Angin Tofan",
+    "blok": 2,
+    "catatan": [],
+    "raw": "98台風 たいふう Angin Tofan"
+  },
+  {
+    "id": "99",
+    "no": 99,
+    "kanji": "風邪",
+    "tipe": "kosakata",
+    "bacaan": [
+      "かぜ"
+    ],
+    "arti": "Pilek",
+    "blok": 2,
+    "catatan": [],
+    "raw": "99風邪 かぜ Pilek"
+  },
+  {
+    "id": "100",
+    "no": 100,
+    "kanji": "年",
+    "tipe": "kanji",
+    "bacaan": [
+      "とし",
+      "ねん"
+    ],
+    "arti": "tahun",
+    "blok": 2,
+    "catatan": [],
+    "raw": "100.年 とし、ねん tahun"
+  },
+  {
+    "id": "101",
+    "no": 101,
+    "kanji": "今年",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ことし"
+    ],
+    "arti": "tahun ini",
+    "blok": 3,
+    "catatan": [],
+    "raw": "101今年 ことし tahun ini"
+  },
+  {
+    "id": "102",
+    "no": 102,
+    "kanji": "来年",
+    "tipe": "kosakata",
+    "bacaan": [
+      "らいねん"
+    ],
+    "arti": "tahun depan",
+    "blok": 3,
+    "catatan": [],
+    "raw": "102.来年 らいねん tahun depan"
+  },
+  {
+    "id": "103",
+    "no": 103,
+    "kanji": "半年",
+    "tipe": "kosakata",
+    "bacaan": [
+      "はんとし"
+    ],
+    "arti": "setengah tahun",
+    "blok": 3,
+    "catatan": [],
+    "raw": "103.半年 はんとし setengah tahun"
+  },
+  {
+    "id": "104",
+    "no": 104,
+    "kanji": "去年",
+    "tipe": "kosakata",
+    "bacaan": [
+      "きょねん"
+    ],
+    "arti": "tahun lalu",
+    "blok": 3,
+    "catatan": [],
+    "raw": "104.去年 きょねん tahun lalu"
+  },
+  {
+    "id": "105",
+    "no": 105,
+    "kanji": "半",
+    "tipe": "kanji",
+    "bacaan": [
+      "はん"
+    ],
+    "arti": "setengah",
+    "blok": 3,
+    "catatan": [],
+    "raw": "105.半 はん setengah"
+  },
+  {
+    "id": "106",
+    "no": 106,
+    "kanji": "半ば",
+    "tipe": "kanji",
+    "bacaan": [
+      "なかば",
+      "はん"
+    ],
+    "arti": "tengah",
+    "blok": 3,
+    "catatan": [],
+    "raw": "106.半ば なかば、はん tengah"
+  },
+  {
+    "id": "107",
+    "no": 107,
+    "kanji": "午前",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ごぜん"
+    ],
+    "arti": "pagi",
+    "blok": 3,
+    "catatan": [],
+    "raw": "107.午前 ごぜん pagi"
+  },
+  {
+    "id": "108",
+    "no": 108,
+    "kanji": "後",
+    "tipe": "kanji",
+    "bacaan": [
+      "あと",
+      "うし",
+      "ご"
+    ],
+    "arti": "nanti",
+    "blok": 3,
+    "catatan": [],
+    "raw": "108.後 あと、うし、ご nanti"
+  },
+  {
+    "id": "109",
+    "no": 109,
+    "kanji": "午後",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ごご"
+    ],
+    "arti": "Sore",
+    "blok": 3,
+    "catatan": [],
+    "raw": "109. 午後 ごご Sore"
+  },
+  {
+    "id": "110",
+    "no": 110,
+    "kanji": "後ろ",
+    "tipe": "kanji",
+    "bacaan": [
+      "うしろ"
+    ],
+    "arti": "di belakang",
+    "blok": 3,
+    "catatan": [],
+    "raw": "110. 後ろ うしろ di belakang"
+  },
+  {
+    "id": "111",
+    "no": 111,
+    "kanji": "後で",
+    "tipe": "kanji",
+    "bacaan": [
+      "あとで"
+    ],
+    "arti": "nanti",
+    "blok": 3,
+    "catatan": [],
+    "raw": "111. 後で あとで nanti"
+  },
+  {
+    "id": "112",
+    "no": 112,
+    "kanji": "前",
+    "tipe": "kanji",
+    "bacaan": [
+      "まえ",
+      "ぜん"
+    ],
+    "arti": "sebelum",
+    "blok": 3,
+    "catatan": [],
+    "raw": "112. 前 まえ、ぜん sebelum"
+  },
+  {
+    "id": "113",
+    "no": 113,
+    "kanji": "以前",
+    "tipe": "kosakata",
+    "bacaan": [
+      "いぜん"
+    ],
+    "arti": "sebelumnya",
+    "blok": 3,
+    "catatan": [],
+    "raw": "113. 以前 いぜん sebelumnya"
+  },
+  {
+    "id": "114",
+    "no": 114,
+    "kanji": "お祝い",
+    "tipe": "kanji",
+    "bacaan": [
+      "おいわい"
+    ],
+    "arti": "perayaan,hadiah,libur",
+    "blok": 3,
+    "catatan": [],
+    "raw": "114. お祝い おいわい perayaan,hadiah,libur"
+  },
+  {
+    "id": "115",
+    "no": 115,
+    "kanji": "光る",
+    "tipe": "kanji",
+    "bacaan": [
+      "ひかる",
+      "こう"
+    ],
+    "arti": "bersinar",
+    "blok": 3,
+    "catatan": [],
+    "raw": "115. 光る ひかる、こう bersinar"
+  },
+  {
+    "id": "116",
+    "no": 116,
+    "kanji": "観光",
+    "tipe": "kosakata",
+    "bacaan": [
+      "かんこう"
+    ],
+    "arti": "wisata",
+    "blok": 3,
+    "catatan": [],
+    "raw": "116. 観光 かんこう wisata"
+  },
+  {
+    "id": "117",
+    "no": 117,
+    "kanji": "日",
+    "tipe": "kanji",
+    "bacaan": [
+      "ひ",
+      "にち",
+      "にっ",
+      "か"
+    ],
+    "arti": "hari",
+    "blok": 3,
+    "catatan": [],
+    "raw": "117. 日 ひ、にち、にっ、か hari"
+  },
+  {
+    "id": "118",
+    "no": 118,
+    "kanji": "日記",
+    "tipe": "kosakata",
+    "bacaan": [
+      "にっき"
+    ],
+    "arti": "buku harian",
+    "blok": 3,
+    "catatan": [],
+    "raw": "118. 日記 にっき buku harian"
+  },
+  {
+    "id": "119",
+    "no": 119,
+    "kanji": "一日中",
+    "tipe": "kosakata",
+    "bacaan": [
+      "いちにちじゅう"
+    ],
+    "arti": "sepanjang hari",
+    "blok": 3,
+    "catatan": [],
+    "raw": "119. 一日中 いちにちじゅう sepanjang hari"
+  },
+  {
+    "id": "120",
+    "no": 120,
+    "kanji": "半日",
+    "tipe": "kosakata",
+    "bacaan": [
+      "はんにち"
+    ],
+    "arti": "setengah hari",
+    "blok": 3,
+    "catatan": [],
+    "raw": "120. 半日 はんにち setengah hari"
+  },
+  {
+    "id": "121",
+    "no": 121,
+    "kanji": "四日",
+    "tipe": "kosakata",
+    "bacaan": [
+      "よっか"
+    ],
+    "arti": "4 hari",
+    "blok": 3,
+    "catatan": [],
+    "raw": "121. 四日 よっか 4 hari"
+  },
+  {
+    "id": "122",
+    "no": 122,
+    "kanji": "十日",
+    "tipe": "kosakata",
+    "bacaan": [
+      "とおか"
+    ],
+    "arti": "10 hari",
+    "blok": 3,
+    "catatan": [],
+    "raw": "122. 十日 とおか 10 hari"
+  },
+  {
+    "id": "123",
+    "no": 123,
+    "kanji": "日記",
+    "tipe": "kosakata",
+    "bacaan": [
+      "にっき"
+    ],
+    "arti": "Bukuharian",
+    "blok": 3,
+    "catatan": [],
+    "raw": "123日記 にっき Bukuharian"
+  },
+  {
+    "id": "124",
+    "no": 124,
+    "kanji": "月",
+    "tipe": "kanji",
+    "bacaan": [
+      "つき",
+      "げつ",
+      "がつ"
+    ],
+    "arti": "Bulan",
+    "blok": 3,
+    "catatan": [],
+    "raw": "124. 月 つき、げつ、がつ Bulan"
+  },
+  {
+    "id": "125",
+    "no": 125,
+    "kanji": "四月",
+    "tipe": "kosakata",
+    "bacaan": [
+      "しがつ"
+    ],
+    "arti": "bulan 4",
+    "blok": 3,
+    "catatan": [],
+    "raw": "125. 四月 しがつ bulan 4"
+  },
+  {
+    "id": "126",
+    "no": 126,
+    "kanji": "七月",
+    "tipe": "kosakata",
+    "bacaan": [
+      "しちがつ"
+    ],
+    "arti": "bulan 7",
+    "blok": 3,
+    "catatan": [],
+    "raw": "126. 七月 しちがつ bulan 7"
+  },
+  {
+    "id": "127",
+    "no": 127,
+    "kanji": "八か月",
+    "tipe": "kanji",
+    "bacaan": [
+      "はっかげつ"
+    ],
+    "arti": "8 Bulan",
+    "blok": 3,
+    "catatan": [],
+    "raw": "127. 八か月 はっかげつ 8 Bulan"
+  },
+  {
+    "id": "128",
+    "no": 128,
+    "kanji": "今月",
+    "tipe": "kosakata",
+    "bacaan": [
+      "こんげつ"
+    ],
+    "arti": "bulan ini",
+    "blok": 3,
+    "catatan": [],
+    "raw": "128. 今月 こんげつ bulan ini"
+  },
+  {
+    "id": "129",
+    "no": 129,
+    "kanji": "来月",
+    "tipe": "kosakata",
+    "bacaan": [
+      "らいげつ"
+    ],
+    "arti": "bulan depan",
+    "blok": 3,
+    "catatan": [],
+    "raw": "129. 来月 らいげつ bulan depan"
+  },
+  {
+    "id": "130",
+    "no": 130,
+    "kanji": "先月",
+    "tipe": "kosakata",
+    "bacaan": [
+      "せんげつ"
+    ],
+    "arti": "bulan lalu",
+    "blok": 3,
+    "catatan": [],
+    "raw": "130. 先月 せんげつ bulan lalu"
+  },
+  {
+    "id": "131",
+    "no": 131,
+    "kanji": "月曜日",
+    "tipe": "kosakata",
+    "bacaan": [
+      "げつようび"
+    ],
+    "arti": "senin",
+    "blok": 3,
+    "catatan": [],
+    "raw": "131. 月曜日 げつようび senin"
+  },
+  {
+    "id": "132",
+    "no": 132,
+    "kanji": "火",
+    "tipe": "kanji",
+    "bacaan": [
+      "ひ",
+      "か"
+    ],
+    "arti": "api",
+    "blok": 3,
+    "catatan": [],
+    "raw": "132. 火 ひ、か api"
+  },
+  {
+    "id": "133",
+    "no": 133,
+    "kanji": "火曜日",
+    "tipe": "kosakata",
+    "bacaan": [
+      "かようび"
+    ],
+    "arti": "selasa",
+    "blok": 3,
+    "catatan": [],
+    "raw": "133. 火曜日 かようび selasa"
+  },
+  {
+    "id": "134",
+    "no": 134,
+    "kanji": "水",
+    "tipe": "kanji",
+    "bacaan": [
+      "みず",
+      "すい"
+    ],
+    "arti": "Air",
+    "blok": 3,
+    "catatan": [],
+    "raw": "134. 水 みず、すい Air"
+  },
+  {
+    "id": "135",
+    "no": 135,
+    "kanji": "水道",
+    "tipe": "kosakata",
+    "bacaan": [
+      "すいどう"
+    ],
+    "arti": "Saluran air",
+    "blok": 3,
+    "catatan": [],
+    "raw": "135水道 すいどう Saluran air"
+  },
+  {
+    "id": "136",
+    "no": 136,
+    "kanji": "水曜日",
+    "tipe": "kosakata",
+    "bacaan": [
+      "すいようび"
+    ],
+    "arti": "Rabu",
+    "blok": 3,
+    "catatan": [],
+    "raw": "136 水曜日 すいようび Rabu"
+  },
+  {
+    "id": "137",
+    "no": 137,
+    "kanji": "木",
+    "tipe": "kanji",
+    "bacaan": [
+      "き",
+      "もく"
+    ],
+    "arti": "Pohon",
+    "blok": 3,
+    "catatan": [],
+    "raw": "137木 き 、もくPohon"
+  },
+  {
+    "id": "138",
+    "no": 138,
+    "kanji": "木曜日",
+    "tipe": "kosakata",
+    "bacaan": [
+      "もくようび"
+    ],
+    "arti": "Kamis",
+    "blok": 3,
+    "catatan": [],
+    "raw": "138 木曜日 もくようび Kamis"
+  },
+  {
+    "id": "139",
+    "no": 139,
+    "kanji": "お金",
+    "tipe": "kanji",
+    "bacaan": [
+      "おかね",
+      "きん"
+    ],
+    "arti": "Uang",
+    "blok": 3,
+    "catatan": [],
+    "raw": "139お金 おかね、きん Uang"
+  },
+  {
+    "id": "140",
+    "no": 140,
+    "kanji": "金曜日",
+    "tipe": "kosakata",
+    "bacaan": [
+      "きんようび"
+    ],
+    "arti": "Jumat",
+    "blok": 3,
+    "catatan": [],
+    "raw": "140金曜日 きんようび Jumat"
+  },
+  {
+    "id": "141",
+    "no": 141,
+    "kanji": "土",
+    "tipe": "kanji",
+    "bacaan": [
+      "つち",
+      "ど"
+    ],
+    "arti": "Tanah",
+    "blok": 3,
+    "catatan": [],
+    "raw": "141 土 つち、ど Tanah"
+  },
+  {
+    "id": "142",
+    "no": 142,
+    "kanji": "土曜日",
+    "tipe": "kosakata",
+    "bacaan": [
+      "どようび"
+    ],
+    "arti": "Sabtu",
+    "blok": 3,
+    "catatan": [],
+    "raw": "142土曜日 どようび Sabtu"
+  },
+  {
+    "id": "143",
+    "no": 143,
+    "kanji": "日曜日",
+    "tipe": "kosakata",
+    "bacaan": [
+      "にちようび"
+    ],
+    "arti": "Minggu",
+    "blok": 3,
+    "catatan": [
+      "dikoreksi"
+    ],
+    "raw": "143日曜日 にちようび Sabtu"
+  },
+  {
+    "id": "144",
+    "no": 144,
+    "kanji": "誕生日",
+    "tipe": "kosakata",
+    "bacaan": [
+      "たんじょうび"
+    ],
+    "arti": "Hari Ulang Tahun",
+    "blok": 3,
+    "catatan": [],
+    "raw": "144誕生日 たんじょうび Hari Ulang Tahun"
+  },
+  {
+    "id": "145",
+    "no": 145,
+    "kanji": "本",
+    "tipe": "kanji",
+    "bacaan": [
+      "ほん"
+    ],
+    "arti": "buku",
+    "blok": 3,
+    "catatan": [],
+    "raw": "145.本 ほん buku"
+  },
+  {
+    "id": "146",
+    "no": 146,
+    "kanji": "日本人",
+    "tipe": "kosakata",
+    "bacaan": [
+      "にほんじん"
+    ],
+    "arti": "OrangJepang",
+    "blok": 3,
+    "catatan": [],
+    "raw": "146 日本人 にほんじん OrangJepang"
+  },
+  {
+    "id": "147",
+    "no": 147,
+    "kanji": "日本語",
+    "tipe": "kosakata",
+    "bacaan": [
+      "にほんご"
+    ],
+    "arti": "Bhs.Jepang",
+    "blok": 3,
+    "catatan": [],
+    "raw": "147 日本語 にほんご Bhs.Jepang"
+  },
+  {
+    "id": "148",
+    "no": 148,
+    "kanji": "日本",
+    "tipe": "kosakata",
+    "bacaan": [
+      "にほん"
+    ],
+    "arti": "Jepang",
+    "blok": 3,
+    "catatan": [],
+    "raw": "148日本 にほん Jepang"
+  },
+  {
+    "id": "149",
+    "no": 149,
+    "kanji": "一本",
+    "tipe": "kosakata",
+    "bacaan": [
+      "いっぽん"
+    ],
+    "arti": "Satu Batang",
+    "blok": 3,
+    "catatan": [],
+    "raw": "149一本 いっぽん Satu Batang"
+  },
+  {
+    "id": "150",
+    "no": 150,
+    "kanji": "二本",
+    "tipe": "kosakata",
+    "bacaan": [
+      "にほん"
+    ],
+    "arti": "Dua Batang",
+    "blok": 3,
+    "catatan": [],
+    "raw": "150二本 にほん Dua Batang"
+  },
+  {
+    "id": "151",
+    "no": 151,
+    "kanji": "目",
+    "tipe": "kanji",
+    "bacaan": [
+      "め",
+      "もく"
+    ],
+    "arti": "Mata",
+    "blok": 4,
+    "catatan": [],
+    "raw": "151目 め、もく Mata"
+  },
+  {
+    "id": "152",
+    "no": 152,
+    "kanji": "目的",
+    "tipe": "kosakata",
+    "bacaan": [
+      "もくてき"
+    ],
+    "arti": "Tujuan",
+    "blok": 4,
+    "catatan": [],
+    "raw": "152目的 もくてき Tujuan"
+  },
+  {
+    "id": "153",
+    "no": 153,
+    "kanji": "～目",
+    "tipe": "kanji",
+    "bacaan": [
+      "め"
+    ],
+    "arti": "urutan ke...",
+    "blok": 4,
+    "catatan": [],
+    "raw": "153～目 め urutan ke..."
+  },
+  {
+    "id": "154",
+    "no": 154,
+    "kanji": "二番目",
+    "tipe": "kosakata",
+    "bacaan": [
+      "にばんめ"
+    ],
+    "arti": "nomer yang kedua",
+    "blok": 4,
+    "catatan": [],
+    "raw": "154二番目 にばんめ nomer yang kedua"
+  },
+  {
+    "id": "155",
+    "no": 155,
+    "kanji": "目薬",
+    "tipe": "kosakata",
+    "bacaan": [
+      "めぐすり"
+    ],
+    "arti": "obat cuci mata",
+    "blok": 4,
+    "catatan": [],
+    "raw": "155. 目薬 めぐすり obat cuci mata"
+  },
+  {
+    "id": "156",
+    "no": 156,
+    "kanji": "日本祭り",
+    "tipe": "kosakata",
+    "bacaan": [
+      "にほんまつり"
+    ],
+    "arti": null,
+    "blok": 4,
+    "catatan": [
+      "perlu dicek"
+    ],
+    "raw": "156日本祭り にほんまつり"
+  },
+  {
+    "id": "157",
+    "no": 157,
+    "kanji": "貝",
+    "tipe": "kanji",
+    "bacaan": [
+      "かい"
+    ],
+    "arti": "Kerang",
+    "blok": 4,
+    "catatan": [],
+    "raw": "157. 貝 かい Kerang"
+  },
+  {
+    "id": "158",
+    "no": 158,
+    "kanji": "～的",
+    "tipe": "kanji",
+    "bacaan": [
+      "てき"
+    ],
+    "arti": "tujuan",
+    "blok": 4,
+    "catatan": [],
+    "raw": "158～的 てき tujuan"
+  },
+  {
+    "id": "159",
+    "no": 159,
+    "kanji": "日本的",
+    "tipe": "kosakata",
+    "bacaan": [
+      "にほんてき"
+    ],
+    "arti": "gaya jepang",
+    "blok": 4,
+    "catatan": [],
+    "raw": "159日本的 にほんてき gaya jepang"
+  },
+  {
+    "id": "160",
+    "no": 160,
+    "kanji": "約～",
+    "tipe": "kanji",
+    "bacaan": [
+      "やく~"
+    ],
+    "arti": "sekitar",
+    "blok": 4,
+    "catatan": [],
+    "raw": "160約～ やく~ sekitar"
+  },
+  {
+    "id": "161",
+    "no": 161,
+    "kanji": "約束",
+    "tipe": "kosakata",
+    "bacaan": [
+      "やくそく"
+    ],
+    "arti": "janji",
+    "blok": 4,
+    "catatan": [],
+    "raw": "161.約束 やくそく janji"
+  },
+  {
+    "id": "162",
+    "no": 162,
+    "kanji": "予約",
+    "tipe": "kosakata",
+    "bacaan": [
+      "よやく"
+    ],
+    "arti": "Memesan",
+    "blok": 4,
+    "catatan": [],
+    "raw": "162予約 よやく Memesan"
+  },
+  {
+    "id": "163",
+    "no": 163,
+    "kanji": "約六年間",
+    "tipe": "kosakata",
+    "bacaan": [
+      "やくろくねんかん"
+    ],
+    "arti": "sekitar 6 tahun lamanya",
+    "blok": 4,
+    "catatan": [],
+    "raw": "163約六年間 やくろくねんかん sekitar 6 tahun lamanya"
+  },
+  {
+    "id": "164",
+    "no": 164,
+    "kanji": "花",
+    "tipe": "kanji",
+    "bacaan": [
+      "はな"
+    ],
+    "arti": "Bunga",
+    "blok": 4,
+    "catatan": [],
+    "raw": "164 花 はな Bunga"
+  },
+  {
+    "id": "165",
+    "no": 165,
+    "kanji": "花火",
+    "tipe": "kosakata",
+    "bacaan": [
+      "はなび"
+    ],
+    "arti": "Festival Kembang api",
+    "blok": 4,
+    "catatan": [],
+    "raw": "165花火 はなび Festival Kembang api"
+  },
+  {
+    "id": "166",
+    "no": 166,
+    "kanji": "花見",
+    "tipe": "kosakata",
+    "bacaan": [
+      "はなみ"
+    ],
+    "arti": "Menikmati Bunga sakura",
+    "blok": 4,
+    "catatan": [],
+    "raw": "166花見 はなみ Menikmati Bunga sakura"
+  },
+  {
+    "id": "167",
+    "no": 167,
+    "kanji": "自動",
+    "tipe": "kosakata",
+    "bacaan": [
+      "じどう"
+    ],
+    "arti": "Otomatis",
+    "blok": 4,
+    "catatan": [],
+    "raw": "167. 自動 じどう Otomatis"
+  },
+  {
+    "id": "168",
+    "no": 168,
+    "kanji": "自由",
+    "tipe": "kosakata",
+    "bacaan": [
+      "じゆう"
+    ],
+    "arti": "Bebas",
+    "blok": 4,
+    "catatan": [],
+    "raw": "168. 自由 じゆうBebas"
+  },
+  {
+    "id": "169",
+    "no": 169,
+    "kanji": "分かる",
+    "tipe": "kanji",
+    "bacaan": [
+      "わかる",
+      "ふん"
+    ],
+    "arti": "mengerti",
+    "blok": 4,
+    "catatan": [],
+    "raw": "169 分かる わかる、ふん mengerti"
+  },
+  {
+    "id": "170",
+    "no": 170,
+    "kanji": "自分で",
+    "tipe": "kosakata",
+    "bacaan": [
+      "じぶんで"
+    ],
+    "arti": "diri sendiri",
+    "blok": 4,
+    "catatan": [],
+    "raw": "170 自分で じぶんで diri sendiri"
+  },
+  {
+    "id": "171",
+    "no": 171,
+    "kanji": "信じる",
+    "tipe": "kanji",
+    "bacaan": [
+      "しんじる"
+    ],
+    "arti": "percaya",
+    "blok": 4,
+    "catatan": [],
+    "raw": "171.信じる しんじるpercaya"
+  },
+  {
+    "id": "172",
+    "no": 172,
+    "kanji": "自信",
+    "tipe": "kosakata",
+    "bacaan": [
+      "じしん"
+    ],
+    "arti": "percaya diri",
+    "blok": 4,
+    "catatan": [],
+    "raw": "172. 自信 じしん percaya diri"
+  },
+  {
+    "id": "173",
+    "no": 173,
+    "kanji": "信号",
+    "tipe": "kosakata",
+    "bacaan": [
+      "しんごう"
+    ],
+    "arti": "Lampu lalu lintas",
+    "blok": 4,
+    "catatan": [],
+    "raw": "173. 信号 しんごうLampu lalu lintas"
+  },
+  {
+    "id": "174",
+    "no": 174,
+    "kanji": "言う",
+    "tipe": "kanji",
+    "bacaan": [
+      "いう",
+      "こと",
+      "げん"
+    ],
+    "arti": "Berkata",
+    "blok": 4,
+    "catatan": [],
+    "raw": "174. 言う いう、こと、げん Berkata"
+  },
+  {
+    "id": "175",
+    "no": 175,
+    "kanji": "便利",
+    "tipe": "kosakata",
+    "bacaan": [
+      "べんり"
+    ],
+    "arti": "Praktis",
+    "blok": 4,
+    "catatan": [],
+    "raw": "175便利 べんり Praktis"
+  },
+  {
+    "id": "176",
+    "no": 176,
+    "kanji": "不便",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ふべん"
+    ],
+    "arti": "Tidak Praktis",
+    "blok": 4,
+    "catatan": [],
+    "raw": "176不便 ふべん Tidak Praktis"
+  },
+  {
+    "id": "177",
+    "no": 177,
+    "kanji": "安い",
+    "tipe": "kanji",
+    "bacaan": [
+      "やすい",
+      "あん"
+    ],
+    "arti": "Murah",
+    "blok": 4,
+    "catatan": [],
+    "raw": "177. 安い やすい 、あん Murah"
+  },
+  {
+    "id": "178",
+    "no": 178,
+    "kanji": "不安",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ふあん"
+    ],
+    "arti": "Tidak Nyaman",
+    "blok": 4,
+    "catatan": [],
+    "raw": "178不安 ふあん Tidak Nyaman"
+  },
+  {
+    "id": "179",
+    "no": 179,
+    "kanji": "心",
+    "tipe": "kanji",
+    "bacaan": [
+      "こころ",
+      "しん"
+    ],
+    "arti": "Hati",
+    "blok": 4,
+    "catatan": [],
+    "raw": "179. 心 こころ、しん Hati"
+  },
+  {
+    "id": "180",
+    "no": 180,
+    "kanji": "安心",
+    "tipe": "kosakata",
+    "bacaan": [
+      "あんしん"
+    ],
+    "arti": "Ketenangan pikiran",
+    "blok": 4,
+    "catatan": [],
+    "raw": "180.安心 あんしんKetenangan pikiran"
+  },
+  {
+    "id": "181",
+    "no": 181,
+    "kanji": "安全",
+    "tipe": "kosakata",
+    "bacaan": [
+      "あんぜん"
+    ],
+    "arti": "Keselamatan",
+    "blok": 4,
+    "catatan": [],
+    "raw": "181. 安全 あんぜん Keselamatan"
+  },
+  {
+    "id": "182",
+    "no": 182,
+    "kanji": "部",
+    "tipe": "kanji",
+    "bacaan": [
+      "ぶ",
+      "へ"
+    ],
+    "arti": null,
+    "blok": 4,
+    "catatan": [
+      "perlu dicek"
+    ],
+    "raw": "182.部 ぶ、へ"
+  },
+  {
+    "id": "183",
+    "no": 183,
+    "kanji": "部品",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ぶひん"
+    ],
+    "arti": "onderdil",
+    "blok": 4,
+    "catatan": [],
+    "raw": "183. 部品 ぶひん onderdil"
+  },
+  {
+    "id": "184",
+    "no": 184,
+    "kanji": "部長",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ぶちょう"
+    ],
+    "arti": "Kepala bagian",
+    "blok": 4,
+    "catatan": [],
+    "raw": "184. 部長 ぶちょう Kepala bagian"
+  },
+  {
+    "id": "185",
+    "no": 185,
+    "kanji": "全部",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ぜんぶ"
+    ],
+    "arti": "Semua",
+    "blok": 4,
+    "catatan": [],
+    "raw": "185. 全部 ぜんぶ Semua"
+  },
+  {
+    "id": "186",
+    "no": 186,
+    "kanji": "全員",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ぜんいん"
+    ],
+    "arti": "Semua Anggota",
+    "blok": 4,
+    "catatan": [],
+    "raw": "186. 全員 ぜんいん Semua Anggota"
+  },
+  {
+    "id": "187",
+    "no": 187,
+    "kanji": "全体",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ぜんたい"
+    ],
+    "arti": "Seluruh",
+    "blok": 4,
+    "catatan": [],
+    "raw": "187. 全体 ぜんたい Seluruh"
+  },
+  {
+    "id": "188",
+    "no": 188,
+    "kanji": "全然",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ぜんぜん"
+    ],
+    "arti": "Sama Sekali",
+    "blok": 4,
+    "catatan": [],
+    "raw": "188. 全然 ぜんぜん Sama Sekali"
+  },
+  {
+    "id": "189",
+    "no": 189,
+    "kanji": "屋",
+    "tipe": "kanji",
+    "bacaan": [
+      "おく",
+      "や"
+    ],
+    "arti": null,
+    "blok": 4,
+    "catatan": [
+      "perlu dicek"
+    ],
+    "raw": "189.屋 おく、や"
+  },
+  {
+    "id": "190",
+    "no": 190,
+    "kanji": "本屋",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ほんや"
+    ],
+    "arti": "toko buku",
+    "blok": 4,
+    "catatan": [],
+    "raw": "190. 本屋 ほんや toko buku"
+  },
+  {
+    "id": "191",
+    "no": 191,
+    "kanji": "屋上",
+    "tipe": "kosakata",
+    "bacaan": [
+      "おくじょう"
+    ],
+    "arti": "Atap",
+    "blok": 4,
+    "catatan": [],
+    "raw": "191. 屋上 おくじょう Atap"
+  },
+  {
+    "id": "192",
+    "no": 192,
+    "kanji": "部屋",
+    "tipe": "kosakata",
+    "bacaan": [
+      "へや"
+    ],
+    "arti": "Kamar",
+    "blok": 4,
+    "catatan": [],
+    "raw": "192 部屋 へや Kamar"
+  },
+  {
+    "id": "193",
+    "no": 193,
+    "kanji": "以上",
+    "tipe": "kosakata",
+    "bacaan": [
+      "いじょう"
+    ],
+    "arti": "Lebih dari",
+    "blok": 4,
+    "catatan": [],
+    "raw": "193以上 いじょう Lebih dari"
+  },
+  {
+    "id": "194",
+    "no": 194,
+    "kanji": "以下",
+    "tipe": "kosakata",
+    "bacaan": [
+      "いか"
+    ],
+    "arti": "Kurang dari",
+    "blok": 4,
+    "catatan": [],
+    "raw": "194以下 いか Kurang dari"
+  },
+  {
+    "id": "195",
+    "no": 195,
+    "kanji": "以外",
+    "tipe": "kosakata",
+    "bacaan": [
+      "いがい"
+    ],
+    "arti": "selain ,Kecuali",
+    "blok": 4,
+    "catatan": [],
+    "raw": "195以外 いがい selain ,Kecuali"
+  },
+  {
+    "id": "196",
+    "no": 196,
+    "kanji": "東京",
+    "tipe": "kosakata",
+    "bacaan": [
+      "とうきょう"
+    ],
+    "arti": "Tokyo",
+    "blok": 4,
+    "catatan": [],
+    "raw": "196東京 とうきょう Tokyo"
+  },
+  {
+    "id": "197",
+    "no": 197,
+    "kanji": "京都",
+    "tipe": "kosakata",
+    "bacaan": [
+      "きょと"
+    ],
+    "arti": "Kyoto",
+    "blok": 4,
+    "catatan": [],
+    "raw": "197. 京都 きょと Kyoto"
+  },
+  {
+    "id": "198",
+    "no": 198,
+    "kanji": "小さい",
+    "tipe": "kanji",
+    "bacaan": [
+      "ちいさい",
+      "しょう",
+      "こ"
+    ],
+    "arti": "kecil",
+    "blok": 4,
+    "catatan": [],
+    "raw": "198. 小さい ちいさい、しょう、こ kecil"
+  },
+  {
+    "id": "199",
+    "no": 199,
+    "kanji": "小説",
+    "tipe": "kosakata",
+    "bacaan": [
+      "しょうせつ"
+    ],
+    "arti": "Novel",
+    "blok": 4,
+    "catatan": [],
+    "raw": "199. 小説 しょうせつ Novel"
+  },
+  {
+    "id": "200",
+    "no": 200,
+    "kanji": "小鳥",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ことり"
+    ],
+    "arti": "Burung kecil",
+    "blok": 4,
+    "catatan": [],
+    "raw": "200. 小鳥 ことり Burung kecil"
+  }
+]
