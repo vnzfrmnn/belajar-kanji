@@ -70,6 +70,23 @@
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('sw.js').catch(() => {});
       });
+      // Update otomatis: saat service worker versi baru mengambil alih kendali,
+      // muat ulang halaman SEKALI — versi terbaru langsung terpakai tanpa
+      // refresh manual, jadi hard refresh tidak diperlukan lagi.
+      try {
+        var hadController = !!navigator.serviceWorker.controller;
+        var reloading = false;
+        navigator.serviceWorker.addEventListener('controllerchange', function() {
+          if (!hadController) { hadController = true; return; } // pengendali pertama (kunjungan pertama) — bukan update
+          if (reloading) return;
+          var sudah = false;
+          try { sudah = sessionStorage.getItem('kanji.sw.reloaded') === '1'; } catch (e) {}
+          if (sudah) return;
+          reloading = true;
+          try { sessionStorage.setItem('kanji.sw.reloaded', '1'); } catch (e2) {}
+          window.location.reload();
+        });
+      } catch (e) {}
     }
   </script>
 </body>
