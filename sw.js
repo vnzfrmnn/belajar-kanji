@@ -1,5 +1,9 @@
-const CACHE_VERSION = 'kanji-v1.11.1';
+const CACHE_VERSION = 'kanji-v1.11.2';
 const CACHE_NAME = `kanji-cache-${CACHE_VERSION}`;
+
+// Foto latar (image/bg-N.jpg). Samakan BG_COUNT dengan daftar di views.js.
+const BG_COUNT = 30;
+const BG_ASSETS = Array.from({ length: BG_COUNT }, (_, i) => `/image/bg-${i + 1}.jpg`);
 
 const ASSETS_TO_CACHE = [
   '/',
@@ -14,16 +18,7 @@ const ASSETS_TO_CACHE = [
   '/manifest.webmanifest',
   '/icons/icon-192.svg',
   '/icons/icon-512.svg',
-  '/image/bg-1.jpg',
-  '/image/bg-2.jpg',
-  '/image/bg-3.jpg',
-  '/image/bg-4.jpg',
-  '/image/bg-5.jpg',
-  '/image/bg-6.jpg',
-  '/image/bg-7.jpg',
-  '/image/bg-8.jpg',
-  '/image/bg-9.jpg',
-  '/image/bg-10.jpg'
+  ...BG_ASSETS
 ];
 
 self.addEventListener('install', (event) => {

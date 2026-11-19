@@ -83,18 +83,9 @@ window.Views = (function() {
     const existing = document.getElementById('bg-floaters');
     if (existing) return existing; // sudah terpakai — jangan duplikat
 
-    const BG_IMAGES = [
-      'image/bg-1.jpg',
-      'image/bg-2.jpg',
-      'image/bg-3.jpg',
-      'image/bg-4.jpg',
-      'image/bg-5.jpg',
-      'image/bg-6.jpg',
-      'image/bg-7.jpg',
-      'image/bg-8.jpg',
-      'image/bg-9.jpg',
-      'image/bg-10.jpg'
-    ];
+    // 30 foto latar (bg-1..bg-30). Menambah foto: taruh image/bg-N.jpg lalu
+    // samakan angka ini dengan BG_COUNT di sw.js.
+    const BG_IMAGES = Array.from({ length: 30 }, (_, i) => `image/bg-${i + 1}.jpg`);
 
     const layer = el('div', { id: 'bg-floaters', 'aria-hidden': 'true' });
 

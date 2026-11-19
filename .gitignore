@@ -2,5 +2,7 @@ deploy.zip
 kana_scan.txt
 
 # Foto sumber asli untuk latar (hanya versi web image/bg-*.jpg yang dipakai)
-image/IMG-*.jpg
-image/_*.jpg
+image/IMG-*
+image/_*
+image/Screenshot_*
+image/*.jpeg
