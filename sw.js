@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'kanji-v1.10.0';
+const CACHE_VERSION = 'kanji-v1.11.0';
 const CACHE_NAME = `kanji-cache-${CACHE_VERSION}`;
 
 const ASSETS_TO_CACHE = [
@@ -13,7 +13,17 @@ const ASSETS_TO_CACHE = [
   '/kanji_1_200.json',
   '/manifest.webmanifest',
   '/icons/icon-192.svg',
-  '/icons/icon-512.svg'
+  '/icons/icon-512.svg',
+  '/image/bg-1.jpg',
+  '/image/bg-2.jpg',
+  '/image/bg-3.jpg',
+  '/image/bg-4.jpg',
+  '/image/bg-5.jpg',
+  '/image/bg-6.jpg',
+  '/image/bg-7.jpg',
+  '/image/bg-8.jpg',
+  '/image/bg-9.jpg',
+  '/image/bg-10.jpg'
 ];
 
 self.addEventListener('install', (event) => {

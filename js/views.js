@@ -66,6 +66,85 @@ window.Views = (function() {
     );
   }
 
+  // --- Latar belakang melayang (dekoratif) ------------------------------
+  // 10 foto berbentuk lingkaran yang bergerak acak "ke sana kemari" di
+  // BELAKANG seluruh konten aplikasi. Latar navy/gelap yang sudah ada tetap
+  // terlihat (layer ini transparan). Murni dekoratif: aria-hidden + pointer-
+  // events none, jadi tidak menghalangi klik/scroll.
+  //
+  // Dipasang SEKALI dari js/app.js (append ke document.body). Id unik
+  // #bg-floaters + guard di bawah menjamin tidak dobel walau fungsi ini
+  // terpanggil lagi saat pindah view.
+  function randBetween(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+
+  function renderBackgroundFloaters() {
+    const existing = document.getElementById('bg-floaters');
+    if (existing) return existing; // sudah terpakai — jangan duplikat
+
+    const BG_IMAGES = [
+      'image/bg-1.jpg',
+      'image/bg-2.jpg',
+      'image/bg-3.jpg',
+      'image/bg-4.jpg',
+      'image/bg-5.jpg',
+      'image/bg-6.jpg',
+      'image/bg-7.jpg',
+      'image/bg-8.jpg',
+      'image/bg-9.jpg',
+      'image/bg-10.jpg'
+    ];
+
+    const layer = el('div', { id: 'bg-floaters', 'aria-hidden': 'true' });
+
+    // 3 titik simpul perjalanan (rentang ±40–140px, arah acak).
+    function waypoint() {
+      const mag = () => {
+        const m = Math.round(randBetween(40, 140));
+        return (Math.random() < 0.5 ? -m : m);
+      };
+      return [mag(), mag()];
+    }
+
+    for (let i = 0; i < BG_IMAGES.length; i++) {
+      const size = Math.round(randBetween(56, 96));              // ukuran ±56–96px
+      const left = randBetween(5, 95).toFixed(1);                // 5–95% lebar
+      const top = randBetween(5, 90).toFixed(1);                 // 5–90% tinggi
+      const opacity = randBetween(0.2, 0.38).toFixed(2);         // tetap terbaca
+      const duration = randBetween(28, 55).toFixed(1);           // 28–55 detik
+      const delay = (-randBetween(0, 55)).toFixed(1);            // delay negatif → tidak serempak
+      const p1 = waypoint();
+      const p2 = waypoint();
+      const p3 = waypoint();
+
+      const style =
+        `--bg-size:${size}px;--bg-left:${left}%;--bg-top:${top}%;` +
+        `--bg-op:${opacity};--bg-dur:${duration}s;--bg-delay:${delay}s;` +
+        `--bg-dx1:${p1[0]}px;--bg-dy1:${p1[1]}px;` +
+        `--bg-dx2:${p2[0]}px;--bg-dy2:${p2[1]}px;` +
+        `--bg-dx3:${p3[0]}px;--bg-dy3:${p3[1]}px;`;
+
+      const circle = el('div', { className: 'bg-float', style },
+        el('img', {
+          src: BG_IMAGES[i],
+          alt: '',
+          loading: 'lazy',
+          decoding: 'async'
+        })
+      );
+      layer.append(circle);
+    }
+
+    // Jeda animasi saat tab tidak terlihat (hemat daya). Listener cuma
+    // sekali karena guard di atas membuat fungsi ini idempoten.
+    document.addEventListener('visibilitychange', () => {
+      layer.classList.toggle('bg-paused', document.hidden);
+    });
+
+    return layer;
+  }
+
   function el(tag, attrs = {}, ...children) {
     const element = document.createElement(tag);
     Object.entries(attrs).forEach(([key, value]) => {
@@ -1412,6 +1491,7 @@ window.Views = (function() {
     renderBlockDetail,
     renderFooter,
     renderHeaderSocials,
+    renderBackgroundFloaters,
     renderGate,
     sha256Hex,
     showKanjiDetail,

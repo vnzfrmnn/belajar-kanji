@@ -21,10 +21,20 @@ window.App = (function() {
 
   let currentView = 'home';
 
+  // Latar belakang melayang (#bg-floaters) — 10 foto lingkaran dekoratif di
+  // belakang aplikasi. Dipanggil SEKALI dari init(); Views.renderBackground-
+  // Floaters() sendiri idempoten (guard id), jadi aman dari duplikat.
+  function mountBackgroundFloaters() {
+    if (document.getElementById('bg-floaters')) return;
+    if (typeof Views === 'undefined' || typeof Views.renderBackgroundFloaters !== 'function') return;
+    document.body.append(Views.renderBackgroundFloaters());
+  }
+
   // Gerbang kode akses: kalau belum pernah unlock, tampilkan overlay-nya dan
   // TUNDAKAN init aplikasi (fetch data + render) sampai kodenya benar.
   function init() {
     loadTheme(); // tema dulu supaya gerbang ikut tema gelap/terang
+    mountBackgroundFloaters(); // layer dekoratif di belakang aplikasi (sekali saja)
 
     let unlocked = false;
     try {

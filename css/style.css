@@ -1536,3 +1536,81 @@ body.is-gated {
     animation: none;
   }
 }
+
+/* =====================================================================
+   LATAR BELAKANG MELAYANG (#bg-floaters)
+   10 foto lingkaran yang bergerak acak "ke sana kemari" di BELAKANG
+   seluruh konten. Layer transparan → latar navy/gelap yang sudah ada
+   tetap dipertahankan. z-index: -1 menjaga layer selalu di bawah
+   header/main/bottom-nav (z-index 10) dan di bawah overlay gerbang
+   (z-index 100). Hanya transform yang dianimasikan (composited).
+   ===================================================================== */
+#bg-floaters {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  contain: layout paint style;
+}
+
+.bg-float {
+  position: absolute;
+  left: var(--bg-left);
+  top: var(--bg-top);
+  width: var(--bg-size);
+  height: var(--bg-size);
+  border-radius: 50%;
+  overflow: hidden;
+  pointer-events: none;
+  /* cincin halus: border 2px + ring lembut, memakai token tema */
+  border: 2px solid var(--color-border);
+  box-shadow:
+    0 0 0 3px color-mix(in srgb, var(--color-primary) 16%, transparent),
+    0 8px 20px var(--color-shadow);
+  opacity: var(--bg-op);
+  will-change: transform;
+  animation: bgFloatDrift var(--bg-dur) ease-in-out var(--bg-delay) infinite;
+}
+
+/* Tema terang: sedikit lebih redup supaya konten tetap terbaca */
+[data-theme="light"] .bg-float {
+  opacity: calc(var(--bg-op) * 0.8);
+}
+
+.bg-float img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* Tab tidak terlihat → jeda animasi (toggle dari js/views.js) */
+#bg-floaters.bg-paused .bg-float {
+  animation-play-state: paused;
+}
+
+/* Perjalanan 3 titik simpul; 0% & 100% kembali ke titik awal */
+@keyframes bgFloatDrift {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+  25% {
+    transform: translate3d(var(--bg-dx1), var(--bg-dy1), 0);
+  }
+  50% {
+    transform: translate3d(var(--bg-dx2), var(--bg-dy2), 0);
+  }
+  75% {
+    transform: translate3d(var(--bg-dx3), var(--bg-dy3), 0);
+  }
+}
+
+/* Gerak terbatas: animasi mati, lingkaran tetap tersebar statis */
+@media (prefers-reduced-motion: reduce) {
+  .bg-float {
+    animation: none;
+  }
+}
