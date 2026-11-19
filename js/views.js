@@ -106,7 +106,7 @@ window.Views = (function() {
     const container = el('div', { className: 'fade-in' },
       el('div', { className: 'progress-overview' },
         el('h2', {}, 'Progres Total'),
-        el('div', { className: 'progress-main' }, `${totalProgress.hafal}/201`),
+        el('div', { className: 'progress-main' }, `${totalProgress.hafal}/${kanjiData.length}`),
         el('div', { className: 'progress-label' }, `${totalProgress.persen}% kanji dikuasai`)
       ),
       el('button', {
@@ -117,7 +117,7 @@ window.Views = (function() {
     );
 
     const blockGrid = el('div', { className: 'block-grid' });
-    [1, 2, 3, 4].forEach(blockNo => {
+    [1, 2, 3, 4, 5, 6].forEach(blockNo => {
       const entries = getEntriesByBlock(blockNo);
       const progress = KanjiProgress.getBlockProgress(blockNo);
       const quizBest = KanjiProgress.getQuizBest(blockNo);
@@ -183,7 +183,9 @@ window.Views = (function() {
       el('button', { className: 'filter-btn', 'data-block': '1' }, 'Blok 1'),
       el('button', { className: 'filter-btn', 'data-block': '2' }, 'Blok 2'),
       el('button', { className: 'filter-btn', 'data-block': '3' }, 'Blok 3'),
-      el('button', { className: 'filter-btn', 'data-block': '4' }, 'Blok 4')
+      el('button', { className: 'filter-btn', 'data-block': '4' }, 'Blok 4'),
+      el('button', { className: 'filter-btn', 'data-block': '5' }, 'Blok 5'),
+      el('button', { className: 'filter-btn', 'data-block': '6' }, 'Blok 6')
     );
 
     const filterType = el('div', { className: 'filter-group', id: 'filter-type' },
@@ -642,6 +644,8 @@ window.Views = (function() {
       el('button', { className: 'filter-btn', 'data-scope': '2' }, 'Blok 2'),
       el('button', { className: 'filter-btn', 'data-scope': '3' }, 'Blok 3'),
       el('button', { className: 'filter-btn', 'data-scope': '4' }, 'Blok 4'),
+      el('button', { className: 'filter-btn', 'data-scope': '5' }, 'Blok 5'),
+      el('button', { className: 'filter-btn', 'data-scope': '6' }, 'Blok 6'),
       el('button', { className: 'filter-btn', 'data-scope': '0' }, 'Semua Blok')
     );
 
@@ -699,6 +703,8 @@ window.Views = (function() {
       el('button', { className: 'filter-btn', 'data-scope': '2' }, 'Blok 2'),
       el('button', { className: 'filter-btn', 'data-scope': '3' }, 'Blok 3'),
       el('button', { className: 'filter-btn', 'data-scope': '4' }, 'Blok 4'),
+      el('button', { className: 'filter-btn', 'data-scope': '5' }, 'Blok 5'),
+      el('button', { className: 'filter-btn', 'data-scope': '6' }, 'Blok 6'),
       el('button', { className: 'filter-btn', 'data-scope': '0' }, 'Semua Blok')
     );
 
