@@ -1608,9 +1608,8 @@ body.is-gated {
   }
 }
 
-/* Gerak terbatas: animasi mati, lingkaran tetap tersebar statis */
-@media (prefers-reduced-motion: reduce) {
-  .bg-float {
-    animation: none;
-  }
-}
+/* prefers-reduced-motion sengaja TIDAK mematikan animasi floaters ini:
+   permintaan pemilik — lingkaran harus selalu bergerak selama web dipakai,
+   termasuk saat "Animation effects" Windows mati. Geraknya lambat (13–24 dtk),
+   hanya transform (composited, tanpa reflow), dan opacity rendah 0.20–0.38
+   → tetap nyaman untuk pengguna sensitif gerak. */

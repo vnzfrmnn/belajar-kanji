@@ -98,10 +98,11 @@ window.Views = (function() {
 
     const layer = el('div', { id: 'bg-floaters', 'aria-hidden': 'true' });
 
-    // 3 titik simpul perjalanan (rentang ±40–140px, arah acak).
+    // 3 titik simpul perjalanan (rentang ±70–180px, arah acak) — offset
+    // besar + durasi singkat supaya gerakannya langsung terlihat.
     function waypoint() {
       const mag = () => {
-        const m = Math.round(randBetween(40, 140));
+        const m = Math.round(randBetween(70, 180));
         return (Math.random() < 0.5 ? -m : m);
       };
       return [mag(), mag()];
@@ -112,8 +113,8 @@ window.Views = (function() {
       const left = randBetween(5, 95).toFixed(1);                // 5–95% lebar
       const top = randBetween(5, 90).toFixed(1);                 // 5–90% tinggi
       const opacity = randBetween(0.2, 0.38).toFixed(2);         // tetap terbaca
-      const duration = randBetween(28, 55).toFixed(1);           // 28–55 detik
-      const delay = (-randBetween(0, 55)).toFixed(1);            // delay negatif → tidak serempak
+      const duration = randBetween(13, 24).toFixed(1);           // 13–24 detik (cepat terlihat)
+      const delay = (-randBetween(0, 24)).toFixed(1);            // delay negatif → tidak serempak
       const p1 = waypoint();
       const p2 = waypoint();
       const p3 = waypoint();

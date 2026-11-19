@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'kanji-v1.11.0';
+const CACHE_VERSION = 'kanji-v1.11.1';
 const CACHE_NAME = `kanji-cache-${CACHE_VERSION}`;
 
 const ASSETS_TO_CACHE = [
