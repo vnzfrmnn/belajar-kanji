@@ -3,8 +3,8 @@
   'use strict';
 
   var PREFIX = 'kanji.v1.';
-  var BLOCK_TOTALS = [0, 50, 51, 50, 50, 50, 50]; // index = nomor blok (blok 5-6 = entri 201-300)
-  var TOTAL_ENTRIES = 301;
+  var BLOCK_TOTALS = [0, 50, 51, 50, 50, 50, 50, 50, 50]; // index = nomor blok (blok 7-8 = entri 301-400)
+  var TOTAL_ENTRIES = 401;
   var KEYS = ['status', 'quizBest', 'review', 'lastBlock'];
 
   var memory = {};
@@ -67,7 +67,7 @@
     var no = parseInt(match[1], 10);
     if (no < 1 || no > TOTAL_ENTRIES) return 0;
     var block = Math.ceil(no / 50);
-    return block >= 1 && block <= 6 ? block : 0;
+    return block >= 1 && block <= 8 ? block : 0;
   }
 
   function normalizeScope(scope, allowZero) {
@@ -76,7 +76,7 @@
       throw new Error('Scope tidak valid: ' + scope);
     }
     if (allowZero && n === 0) return 0;
-    if (n >= 1 && n <= 6) return n;
+    if (n >= 1 && n <= 8) return n;
     throw new Error('Scope tidak valid: ' + scope);
   }
 
@@ -127,7 +127,7 @@
 
   function getBlockProgress(blockNo) {
     var n = Number(blockNo);
-    if (!isFinite(n) || Math.floor(n) !== n || n < 1 || n > 6) {
+    if (!isFinite(n) || Math.floor(n) !== n || n < 1 || n > 8) {
       throw new Error('Blok tidak valid: ' + blockNo);
     }
     return getScopeProgress(n);
@@ -230,13 +230,13 @@
     var value = read('lastBlock', null);
     if (typeof value !== 'number' || !isFinite(value)) return null;
     if (value === 0) return 0;
-    if (Math.floor(value) === value && value >= 1 && value <= 6) return value;
+    if (Math.floor(value) === value && value >= 1 && value <= 8) return value;
     return null;
   }
 
   function setLastBlock(blockNo) {
     var n = Number(blockNo);
-    if (!isFinite(n) || Math.floor(n) !== n || n < 0 || n > 6) {
+    if (!isFinite(n) || Math.floor(n) !== n || n < 0 || n > 8) {
       throw new Error('Blok terakhir tidak valid: ' + blockNo);
     }
     write('lastBlock', n);

@@ -3,6 +3,7 @@ window.Views = (function() {
 
   let kanjiData = [];
   let currentView = 'home';
+  const BLOCK_NUMBERS = [1, 2, 3, 4, 5, 6, 7, 8];
 
   // Konfigurasi link sosial — satu sumber untuk footer.
   const SOCIAL_LINKS = [
@@ -188,7 +189,7 @@ window.Views = (function() {
     );
 
     const blockGrid = el('div', { className: 'block-grid' });
-    [1, 2, 3, 4, 5, 6].forEach(blockNo => {
+    BLOCK_NUMBERS.forEach(blockNo => {
       const entries = getEntriesByBlock(blockNo);
       const progress = KanjiProgress.getBlockProgress(blockNo);
       const quizBest = KanjiProgress.getQuizBest(blockNo);
@@ -251,12 +252,9 @@ window.Views = (function() {
 
     const filterBlock = el('div', { className: 'filter-group', id: 'filter-block' },
       el('button', { className: 'filter-btn active', 'data-block': '0' }, 'Semua'),
-      el('button', { className: 'filter-btn', 'data-block': '1' }, 'Blok 1'),
-      el('button', { className: 'filter-btn', 'data-block': '2' }, 'Blok 2'),
-      el('button', { className: 'filter-btn', 'data-block': '3' }, 'Blok 3'),
-      el('button', { className: 'filter-btn', 'data-block': '4' }, 'Blok 4'),
-      el('button', { className: 'filter-btn', 'data-block': '5' }, 'Blok 5'),
-      el('button', { className: 'filter-btn', 'data-block': '6' }, 'Blok 6')
+      BLOCK_NUMBERS.map(blockNo =>
+        el('button', { className: 'filter-btn', 'data-block': String(blockNo) }, 'Blok ' + blockNo)
+      )
     );
 
     const filterType = el('div', { className: 'filter-group', id: 'filter-type' },
@@ -711,12 +709,12 @@ window.Views = (function() {
 
     const scopeLabel = el('div', { style: 'margin-bottom: 8px; font-weight: 500;' }, 'Pilih Lingkup:');
     const scopeGroup = el('div', { className: 'filter-group', id: 'scope-group' },
-      el('button', { className: 'filter-btn active', 'data-scope': '1' }, 'Blok 1'),
-      el('button', { className: 'filter-btn', 'data-scope': '2' }, 'Blok 2'),
-      el('button', { className: 'filter-btn', 'data-scope': '3' }, 'Blok 3'),
-      el('button', { className: 'filter-btn', 'data-scope': '4' }, 'Blok 4'),
-      el('button', { className: 'filter-btn', 'data-scope': '5' }, 'Blok 5'),
-      el('button', { className: 'filter-btn', 'data-scope': '6' }, 'Blok 6'),
+      BLOCK_NUMBERS.map(blockNo =>
+        el('button', {
+          className: 'filter-btn' + (blockNo === 1 ? ' active' : ''),
+          'data-scope': String(blockNo)
+        }, 'Blok ' + blockNo)
+      ),
       el('button', { className: 'filter-btn', 'data-scope': '0' }, 'Semua Blok')
     );
 
@@ -770,12 +768,12 @@ window.Views = (function() {
 
     const scopeLabel = el('div', { style: 'margin-bottom: 8px; font-weight: 500;' }, 'Pilih Lingkup:');
     const scopeGroup = el('div', { className: 'filter-group', id: 'scope-group' },
-      el('button', { className: 'filter-btn active', 'data-scope': '1' }, 'Blok 1'),
-      el('button', { className: 'filter-btn', 'data-scope': '2' }, 'Blok 2'),
-      el('button', { className: 'filter-btn', 'data-scope': '3' }, 'Blok 3'),
-      el('button', { className: 'filter-btn', 'data-scope': '4' }, 'Blok 4'),
-      el('button', { className: 'filter-btn', 'data-scope': '5' }, 'Blok 5'),
-      el('button', { className: 'filter-btn', 'data-scope': '6' }, 'Blok 6'),
+      BLOCK_NUMBERS.map(blockNo =>
+        el('button', {
+          className: 'filter-btn' + (blockNo === 1 ? ' active' : ''),
+          'data-scope': String(blockNo)
+        }, 'Blok ' + blockNo)
+      ),
       el('button', { className: 'filter-btn', 'data-scope': '0' }, 'Semua Blok')
     );
 

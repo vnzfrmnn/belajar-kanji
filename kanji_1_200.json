@@ -4021,5 +4021,1346 @@
     "blok": 6,
     "catatan": [],
     "raw": "300.手首 てくび Pergelangan tangan"
+  },
+  {
+    "id": "301",
+    "no": 301,
+    "kanji": "手洗い",
+    "tipe": "kosakata",
+    "bacaan": [
+      "てあらい"
+    ],
+    "arti": "Mencuci tangan",
+    "blok": 7,
+    "catatan": [],
+    "raw": "30.手洗い てあらい Mencuci tangan"
+  },
+  {
+    "id": "302",
+    "no": 302,
+    "kanji": "切手",
+    "tipe": "kosakata",
+    "bacaan": [
+      "きって"
+    ],
+    "arti": "perangko",
+    "blok": 7,
+    "catatan": [],
+    "raw": "302.切手 きって perangko"
+  },
+  {
+    "id": "303",
+    "no": 303,
+    "kanji": "下",
+    "tipe": "kanji",
+    "bacaan": [
+      "した",
+      "さ",
+      "か",
+      "へ"
+    ],
+    "arti": "Bawah",
+    "blok": 7,
+    "catatan": [],
+    "raw": "303. 下 した、さ、か、へ Bawah"
+  },
+  {
+    "id": "304",
+    "no": 304,
+    "kanji": "下手",
+    "tipe": "kosakata",
+    "bacaan": [
+      "へた"
+    ],
+    "arti": "Bodoh",
+    "blok": 7,
+    "catatan": [],
+    "raw": "304. 下手 へた Bodoh"
+  },
+  {
+    "id": "305",
+    "no": 305,
+    "kanji": "上",
+    "tipe": "kanji",
+    "bacaan": [
+      "うえ",
+      "じょ"
+    ],
+    "arti": "Atas",
+    "blok": 7,
+    "catatan": [],
+    "raw": "305. 上 うえ、じょ Atas"
+  },
+  {
+    "id": "306",
+    "no": 306,
+    "kanji": "上手",
+    "tipe": "kosakata",
+    "bacaan": [
+      "じょうず"
+    ],
+    "arti": "Pintar",
+    "blok": 7,
+    "catatan": [],
+    "raw": "306. 上手 じょうず Pintar"
+  },
+  {
+    "id": "307",
+    "no": 307,
+    "kanji": "両",
+    "tipe": "kanji",
+    "bacaan": [
+      "りょう"
+    ],
+    "arti": "keduanya",
+    "blok": 7,
+    "catatan": [],
+    "raw": "307.両 りょう keduanya"
+  },
+  {
+    "id": "308",
+    "no": 308,
+    "kanji": "両手",
+    "tipe": "kosakata",
+    "bacaan": [
+      "りょうて"
+    ],
+    "arti": "Kedua tangan",
+    "blok": 7,
+    "catatan": [],
+    "raw": "308. 両手 りょうて Kedua tangan"
+  },
+  {
+    "id": "309",
+    "no": 309,
+    "kanji": "両方",
+    "tipe": "kosakata",
+    "bacaan": [
+      "りょうほう"
+    ],
+    "arti": "Kedua-duanya",
+    "blok": 7,
+    "catatan": [],
+    "raw": "309. 両方 りょうほう Kedua-duanya"
+  },
+  {
+    "id": "310",
+    "no": 310,
+    "kanji": "親",
+    "tipe": "kanji",
+    "bacaan": [
+      "おや",
+      "しん"
+    ],
+    "arti": "Induk, Orang tua",
+    "blok": 7,
+    "catatan": [],
+    "raw": "310. 親 おや 、しん Induk, Orang tua"
+  },
+  {
+    "id": "311",
+    "no": 311,
+    "kanji": "両親",
+    "tipe": "kosakata",
+    "bacaan": [
+      "りょうしん"
+    ],
+    "arti": "Kedua orang tua",
+    "blok": 7,
+    "catatan": [],
+    "raw": "311. 両親 りょうしん Kedua orang tua"
+  },
+  {
+    "id": "312",
+    "no": 312,
+    "kanji": "母親",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ははおや"
+    ],
+    "arti": "Ibu",
+    "blok": 7,
+    "catatan": [],
+    "raw": "312. 母親 ははおや Ibu"
+  },
+  {
+    "id": "313",
+    "no": 313,
+    "kanji": "新しい",
+    "tipe": "kanji",
+    "bacaan": [
+      "あたらし",
+      "しん"
+    ],
+    "arti": "baru",
+    "blok": 7,
+    "catatan": [],
+    "raw": "313.新しい あたらし、しん baru"
+  },
+  {
+    "id": "314",
+    "no": 314,
+    "kanji": "友達",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ともだち"
+    ],
+    "arti": "Teman",
+    "blok": 7,
+    "catatan": [],
+    "raw": "314. 友達 ともだち Teman"
+  },
+  {
+    "id": "315",
+    "no": 315,
+    "kanji": "お子さん",
+    "tipe": "kanji",
+    "bacaan": [
+      "おこさん",
+      "し"
+    ],
+    "arti": "Anak",
+    "blok": 7,
+    "catatan": [],
+    "raw": "315. お子さん おこさん 、し Anak"
+  },
+  {
+    "id": "316",
+    "no": 316,
+    "kanji": "子供",
+    "tipe": "kosakata",
+    "bacaan": [
+      "こども"
+    ],
+    "arti": "Anak-anak",
+    "blok": 7,
+    "catatan": [],
+    "raw": "316. 子供 こども Anak-anak"
+  },
+  {
+    "id": "317",
+    "no": 317,
+    "kanji": "父",
+    "tipe": "kanji",
+    "bacaan": [
+      "ちち",
+      "とう",
+      "ふ"
+    ],
+    "arti": "Ayah",
+    "blok": 7,
+    "catatan": [],
+    "raw": "317. 父 ちち、とう、ふ Ayah"
+  },
+  {
+    "id": "318",
+    "no": 318,
+    "kanji": "お父さん",
+    "tipe": "kanji",
+    "bacaan": [
+      "おとうさん"
+    ],
+    "arti": "Ayah",
+    "blok": 7,
+    "catatan": [],
+    "raw": "318. お父さん おとうさん Ayah"
+  },
+  {
+    "id": "319",
+    "no": 319,
+    "kanji": "祖父",
+    "tipe": "kosakata",
+    "bacaan": [
+      "そふ"
+    ],
+    "arti": "Kakek",
+    "blok": 7,
+    "catatan": [],
+    "raw": "319. 祖父 そふ Kakek"
+  },
+  {
+    "id": "320",
+    "no": 320,
+    "kanji": "母",
+    "tipe": "kanji",
+    "bacaan": [
+      "はは",
+      "かあ"
+    ],
+    "arti": "Ibu",
+    "blok": 7,
+    "catatan": [],
+    "raw": "320. 母 はは 、かあ Ibu"
+  },
+  {
+    "id": "321",
+    "no": 321,
+    "kanji": "お母さん",
+    "tipe": "kanji",
+    "bacaan": [
+      "おかあさん"
+    ],
+    "arti": "Ibu",
+    "blok": 7,
+    "catatan": [],
+    "raw": "321. お母さん おかあさん Ibu"
+  },
+  {
+    "id": "322",
+    "no": 322,
+    "kanji": "兄",
+    "tipe": "kanji",
+    "bacaan": [
+      "あに",
+      "にい",
+      "きょう"
+    ],
+    "arti": "Kakak laki-laki",
+    "blok": 7,
+    "catatan": [],
+    "raw": "322. 兄 あに、にい、きょう Kakak laki-laki"
+  },
+  {
+    "id": "323",
+    "no": 323,
+    "kanji": "お兄さん",
+    "tipe": "kanji",
+    "bacaan": [
+      "おにいさん"
+    ],
+    "arti": "Adik laki-laki",
+    "blok": 7,
+    "catatan": [],
+    "raw": "323. お兄さん おにいさん Adik laki-laki"
+  },
+  {
+    "id": "324",
+    "no": 324,
+    "kanji": "兄弟",
+    "tipe": "kosakata",
+    "bacaan": [
+      "きょうだい"
+    ],
+    "arti": "Saudara Kandung",
+    "blok": 7,
+    "catatan": [],
+    "raw": "324. 兄弟 きょうだい Saudara Kandung"
+  },
+  {
+    "id": "325",
+    "no": 325,
+    "kanji": "弟",
+    "tipe": "kanji",
+    "bacaan": [
+      "おとうと",
+      "だい"
+    ],
+    "arti": "Adik laki-laki",
+    "blok": 7,
+    "catatan": [],
+    "raw": "325. 弟 おとうと、だい Adik laki-laki"
+  },
+  {
+    "id": "326",
+    "no": 326,
+    "kanji": "妹",
+    "tipe": "kanji",
+    "bacaan": [
+      "いもうと",
+      "まい"
+    ],
+    "arti": "Adik perempuan",
+    "blok": 7,
+    "catatan": [],
+    "raw": "326. 妹 いもうと、まい Adik perempuan"
+  },
+  {
+    "id": "327",
+    "no": 327,
+    "kanji": "姉",
+    "tipe": "kanji",
+    "bacaan": [
+      "あね",
+      "おね",
+      "し"
+    ],
+    "arti": "Kakak perempuan",
+    "blok": 7,
+    "catatan": [],
+    "raw": "327. 姉 あね、おね、し Kakak perempuan"
+  },
+  {
+    "id": "328",
+    "no": 328,
+    "kanji": "お姉さん",
+    "tipe": "kanji",
+    "bacaan": [
+      "おねえさん"
+    ],
+    "arti": "Kakak pr (orang lain)",
+    "blok": 7,
+    "catatan": [],
+    "raw": "328. お姉さん おねえさん Kakak pr (orang lain)"
+  },
+  {
+    "id": "329",
+    "no": 329,
+    "kanji": "姉妹",
+    "tipe": "kosakata",
+    "bacaan": [
+      "しまい"
+    ],
+    "arti": "Saudara perempuan",
+    "blok": 7,
+    "catatan": [],
+    "raw": "329. 姉妹 しまい Saudara perempuan"
+  },
+  {
+    "id": "330",
+    "no": 330,
+    "kanji": "妻",
+    "tipe": "kanji",
+    "bacaan": [
+      "つま",
+      "さい"
+    ],
+    "arti": "Istri",
+    "blok": 7,
+    "catatan": [],
+    "raw": "330.妻、 つま 、さいIstri"
+  },
+  {
+    "id": "331",
+    "no": 331,
+    "kanji": "彼",
+    "tipe": "kanji",
+    "bacaan": [
+      "かれ",
+      "かの"
+    ],
+    "arti": "Dia",
+    "blok": 7,
+    "catatan": [],
+    "raw": "331. 彼 かれ、かの Dia"
+  },
+  {
+    "id": "332",
+    "no": 332,
+    "kanji": "女",
+    "tipe": "kanji",
+    "bacaan": [
+      "おんな",
+      "じょ"
+    ],
+    "arti": "wanita",
+    "blok": 7,
+    "catatan": [],
+    "raw": "332女 おんな 、じょwanita"
+  },
+  {
+    "id": "333",
+    "no": 333,
+    "kanji": "彼女",
+    "tipe": "kosakata",
+    "bacaan": [
+      "かのじょ"
+    ],
+    "arti": "Pacar",
+    "blok": 7,
+    "catatan": [],
+    "raw": "333彼女 かのじょ Pacar"
+  },
+  {
+    "id": "334",
+    "no": 334,
+    "kanji": ".彼氏",
+    "tipe": "kosakata",
+    "bacaan": [
+      "かれし"
+    ],
+    "arti": "Pacar",
+    "blok": 7,
+    "catatan": [],
+    "raw": "334..彼氏 かれし Pacar"
+  },
+  {
+    "id": "335",
+    "no": 335,
+    "kanji": "恋人",
+    "tipe": "kosakata",
+    "bacaan": [
+      "こいびと"
+    ],
+    "arti": "kekasih",
+    "blok": 7,
+    "catatan": [],
+    "raw": "335.恋人 こいびと kekasih"
+  },
+  {
+    "id": "336",
+    "no": 336,
+    "kanji": "男",
+    "tipe": "kanji",
+    "bacaan": [
+      "おとこ",
+      "だん"
+    ],
+    "arti": "Laki laki",
+    "blok": 7,
+    "catatan": [],
+    "raw": "336.男 おとこ、だん Laki laki"
+  },
+  {
+    "id": "337",
+    "no": 337,
+    "kanji": "君",
+    "tipe": "kanji",
+    "bacaan": [
+      "きみ",
+      "くん"
+    ],
+    "arti": "anak laki laki",
+    "blok": 7,
+    "catatan": [],
+    "raw": "337.君 きみ 、くんanak laki laki"
+  },
+  {
+    "id": "338",
+    "no": 338,
+    "kanji": "私",
+    "tipe": "kanji",
+    "bacaan": [
+      "わたし"
+    ],
+    "arti": "Saya",
+    "blok": 7,
+    "catatan": [],
+    "raw": "338. 私 わたし Saya"
+  },
+  {
+    "id": "339",
+    "no": 339,
+    "kanji": "町",
+    "tipe": "kanji",
+    "bacaan": [
+      "まち",
+      "ちょう"
+    ],
+    "arti": "Kota",
+    "blok": 7,
+    "catatan": [],
+    "raw": "339.町 まち、ちょう Kota"
+  },
+  {
+    "id": "340",
+    "no": 340,
+    "kanji": "村",
+    "tipe": "kanji",
+    "bacaan": [
+      "むら",
+      "そん"
+    ],
+    "arti": "Kampung",
+    "blok": 7,
+    "catatan": [],
+    "raw": "340.村 むら、そん Kampung"
+  },
+  {
+    "id": "341",
+    "no": 341,
+    "kanji": "本",
+    "tipe": "kanji",
+    "bacaan": [
+      "ほん"
+    ],
+    "arti": "Buku",
+    "blok": 7,
+    "catatan": [],
+    "raw": "341. 本 ほん Buku"
+  },
+  {
+    "id": "342",
+    "no": 342,
+    "kanji": "体",
+    "tipe": "kanji",
+    "bacaan": [
+      "からだ",
+      "たい"
+    ],
+    "arti": "Badan",
+    "blok": 7,
+    "catatan": [],
+    "raw": "342. 体 からだ、たい Badan"
+  },
+  {
+    "id": "343",
+    "no": 343,
+    "kanji": "重い",
+    "tipe": "kanji",
+    "bacaan": [
+      "おもい",
+      "じゅう"
+    ],
+    "arti": "berat",
+    "blok": 7,
+    "catatan": [],
+    "raw": "343.重い おもい、じゅう berat"
+  },
+  {
+    "id": "344",
+    "no": 344,
+    "kanji": "体重",
+    "tipe": "kosakata",
+    "bacaan": [
+      "たいじゅう"
+    ],
+    "arti": "berat badan",
+    "blok": 7,
+    "catatan": [],
+    "raw": "344.体重 たいじゅう berat badan"
+  },
+  {
+    "id": "345",
+    "no": 345,
+    "kanji": "長い",
+    "tipe": "kanji",
+    "bacaan": [
+      "ながい",
+      "ちょう"
+    ],
+    "arti": "Panjang",
+    "blok": 7,
+    "catatan": [],
+    "raw": "345. 長い ながい、ちょう Panjang"
+  },
+  {
+    "id": "346",
+    "no": 346,
+    "kanji": "身長",
+    "tipe": "kosakata",
+    "bacaan": [
+      "しんちょう"
+    ],
+    "arti": "tinggi badan",
+    "blok": 7,
+    "catatan": [],
+    "raw": "346.身長 しんちょうtinggi badan"
+  },
+  {
+    "id": "347",
+    "no": 347,
+    "kanji": "別々",
+    "tipe": "kanji",
+    "bacaan": [
+      "べつべつ"
+    ],
+    "arti": "Terpisah,masing-masing",
+    "blok": 7,
+    "catatan": [],
+    "raw": "347.別々 べつべつ Terpisah,masing-masing"
+  },
+  {
+    "id": "348",
+    "no": 348,
+    "kanji": "配",
+    "tipe": "kanji",
+    "bacaan": [
+      "はい",
+      "ぱい"
+    ],
+    "arti": null,
+    "blok": 7,
+    "catatan": [
+      "perlu dicek"
+    ],
+    "raw": "348 配 はい、ぱい"
+  },
+  {
+    "id": "349",
+    "no": 349,
+    "kanji": "心配",
+    "tipe": "kosakata",
+    "bacaan": [
+      "しんぱい"
+    ],
+    "arti": "Cemas",
+    "blok": 7,
+    "catatan": [],
+    "raw": "349.心配 しんぱい Cemas"
+  },
+  {
+    "id": "350",
+    "no": 350,
+    "kanji": "送る",
+    "tipe": "kanji",
+    "bacaan": [
+      "おくる",
+      "そう"
+    ],
+    "arti": "mengirim",
+    "blok": 7,
+    "catatan": [],
+    "raw": "350.送る :おくる、そう mengirim"
+  },
+  {
+    "id": "351",
+    "no": 351,
+    "kanji": "配送",
+    "tipe": "kosakata",
+    "bacaan": [
+      "はいそう"
+    ],
+    "arti": "pengiriman",
+    "blok": 8,
+    "catatan": [],
+    "raw": "351配送 はいそう pengiriman"
+  },
+  {
+    "id": "352",
+    "no": 352,
+    "kanji": "お酒",
+    "tipe": "kanji",
+    "bacaan": [
+      "おさけ"
+    ],
+    "arti": "Sake",
+    "blok": 8,
+    "catatan": [],
+    "raw": "352. お酒 おさけ Sake"
+  },
+  {
+    "id": "353",
+    "no": 353,
+    "kanji": "試す",
+    "tipe": "kanji",
+    "bacaan": [
+      "ためす",
+      "し"
+    ],
+    "arti": "mencoba",
+    "blok": 8,
+    "catatan": [],
+    "raw": "353試す ためす, こころ、し mencoba"
+  },
+  {
+    "id": "354",
+    "no": 354,
+    "kanji": "試験",
+    "tipe": "kosakata",
+    "bacaan": [
+      "しけん"
+    ],
+    "arti": "Ujian",
+    "blok": 8,
+    "catatan": [],
+    "raw": "354. 試験 しけん Ujian"
+  },
+  {
+    "id": "355",
+    "no": 355,
+    "kanji": "経験",
+    "tipe": "kosakata",
+    "bacaan": [
+      "けいけん"
+    ],
+    "arti": "Pengalaman",
+    "blok": 8,
+    "catatan": [],
+    "raw": "355. 経験 けいけん Pengalaman"
+  },
+  {
+    "id": "356",
+    "no": 356,
+    "kanji": "受験",
+    "tipe": "kosakata",
+    "bacaan": [
+      "じゅけん"
+    ],
+    "arti": "ikut Ujian",
+    "blok": 8,
+    "catatan": [],
+    "raw": "356. 受験 じゅけん ikut Ujian"
+  },
+  {
+    "id": "357",
+    "no": 357,
+    "kanji": "合う",
+    "tipe": "kanji",
+    "bacaan": [
+      "あう",
+      "ごう"
+    ],
+    "arti": "cocok",
+    "blok": 8,
+    "catatan": [],
+    "raw": "357合う あう、ごう cocok"
+  },
+  {
+    "id": "358",
+    "no": 358,
+    "kanji": "合格",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ごうかく"
+    ],
+    "arti": "Lulus",
+    "blok": 8,
+    "catatan": [],
+    "raw": "358. 合格 ごうかく Lulus"
+  },
+  {
+    "id": "359",
+    "no": 359,
+    "kanji": "計る",
+    "tipe": "kanji",
+    "bacaan": [
+      "はかる",
+      "けい"
+    ],
+    "arti": "mengukur",
+    "blok": 8,
+    "catatan": [],
+    "raw": "359.計る はかる、けいmengukur"
+  },
+  {
+    "id": "360",
+    "no": 360,
+    "kanji": "合計",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ごうけい"
+    ],
+    "arti": "Jumlah",
+    "blok": 8,
+    "catatan": [],
+    "raw": "360. 合計 ごうけい Jumlah"
+  },
+  {
+    "id": "361",
+    "no": 361,
+    "kanji": "計画",
+    "tipe": "kosakata",
+    "bacaan": [
+      "けいかく"
+    ],
+    "arti": "Perencanaan",
+    "blok": 8,
+    "catatan": [],
+    "raw": "361. 計画 けいかく Perencanaan"
+  },
+  {
+    "id": "362",
+    "no": 362,
+    "kanji": "試合",
+    "tipe": "kosakata",
+    "bacaan": [
+      "しあい"
+    ],
+    "arti": "Pertandingan",
+    "blok": 8,
+    "catatan": [],
+    "raw": "362.試合 しあい Pertandingan"
+  },
+  {
+    "id": "363",
+    "no": 363,
+    "kanji": "家",
+    "tipe": "kanji",
+    "bacaan": [
+      "いえ",
+      "か",
+      "や"
+    ],
+    "arti": "Rumah",
+    "blok": 8,
+    "catatan": [],
+    "raw": "363.家 いえ、か、や Rumah"
+  },
+  {
+    "id": "364",
+    "no": 364,
+    "kanji": "家賃",
+    "tipe": "kosakata",
+    "bacaan": [
+      "やちん"
+    ],
+    "arti": "sewa rumah",
+    "blok": 8,
+    "catatan": [],
+    "raw": "368. 家賃 やちん sewa rumah"
+  },
+  {
+    "id": "365",
+    "no": 365,
+    "kanji": "家族",
+    "tipe": "kosakata",
+    "bacaan": [
+      "かぞく"
+    ],
+    "arti": "keluarga",
+    "blok": 8,
+    "catatan": [],
+    "raw": "367家族 かぞくkeluarga"
+  },
+  {
+    "id": "366",
+    "no": 366,
+    "kanji": "家庭",
+    "tipe": "kosakata",
+    "bacaan": [
+      "かてい"
+    ],
+    "arti": "keluarga rumah tangga",
+    "blok": 8,
+    "catatan": [],
+    "raw": "368家庭 かてい keluarga rumah tangga"
+  },
+  {
+    "id": "367",
+    "no": 367,
+    "kanji": "庭",
+    "tipe": "kanji",
+    "bacaan": [
+      "にわ",
+      "てい"
+    ],
+    "arti": "halaman",
+    "blok": 8,
+    "catatan": [],
+    "raw": "797. 庭 にわ、てい halaman"
+  },
+  {
+    "id": "368",
+    "no": 368,
+    "kanji": "内",
+    "tipe": "kanji",
+    "bacaan": [
+      "うち",
+      "ない"
+    ],
+    "arti": "dalam",
+    "blok": 8,
+    "catatan": [],
+    "raw": "369 内 うち、ない dalam"
+  },
+  {
+    "id": "369",
+    "no": 369,
+    "kanji": "国内",
+    "tipe": "kosakata",
+    "bacaan": [
+      "こくない"
+    ],
+    "arti": "lokal",
+    "blok": 8,
+    "catatan": [],
+    "raw": "370国内 こくない lokal"
+  },
+  {
+    "id": "370",
+    "no": 370,
+    "kanji": "肉",
+    "tipe": "kanji",
+    "bacaan": [
+      "にく"
+    ],
+    "arti": "daging",
+    "blok": 8,
+    "catatan": [],
+    "raw": "371肉 にく daging"
+  },
+  {
+    "id": "371",
+    "no": 371,
+    "kanji": "牛",
+    "tipe": "kanji",
+    "bacaan": [
+      "うし",
+      "ぎゅう"
+    ],
+    "arti": "Sapi",
+    "blok": 8,
+    "catatan": [],
+    "raw": "372. 牛 うし 、ぎゅう Sapi"
+  },
+  {
+    "id": "372",
+    "no": 372,
+    "kanji": "牛丼",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ぎゅうどん"
+    ],
+    "arti": "makanan daging sapi iris",
+    "blok": 8,
+    "catatan": [],
+    "raw": "373. 牛丼 ぎゅうどん makanan daging sapi iris"
+  },
+  {
+    "id": "373",
+    "no": 373,
+    "kanji": "牛肉",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ぎゅうにく"
+    ],
+    "arti": "daging sapi",
+    "blok": 8,
+    "catatan": [],
+    "raw": "374牛肉 ぎゅうにく daging sapi"
+  },
+  {
+    "id": "374",
+    "no": 374,
+    "kanji": "牛乳",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ぎゅうにゅう"
+    ],
+    "arti": "susu sapi",
+    "blok": 8,
+    "catatan": [],
+    "raw": "827. 牛乳 ぎゅうにゅう susu sapi"
+  },
+  {
+    "id": "375",
+    "no": 375,
+    "kanji": "豚肉",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ぶたにく"
+    ],
+    "arti": "daging babi",
+    "blok": 8,
+    "catatan": [],
+    "raw": "375豚肉 ぶたにく daging babi"
+  },
+  {
+    "id": "376",
+    "no": 376,
+    "kanji": "焼く",
+    "tipe": "kanji",
+    "bacaan": [
+      "やく"
+    ],
+    "arti": "membakar",
+    "blok": 8,
+    "catatan": [],
+    "raw": "376焼く やく membakar"
+  },
+  {
+    "id": "377",
+    "no": 377,
+    "kanji": "焼肉",
+    "tipe": "kosakata",
+    "bacaan": [
+      "やきにく"
+    ],
+    "arti": "daging panggang",
+    "blok": 8,
+    "catatan": [],
+    "raw": "377焼肉 やきにく daging panggang"
+  },
+  {
+    "id": "378",
+    "no": 378,
+    "kanji": "焼き鳥",
+    "tipe": "kosakata",
+    "bacaan": [
+      "やきとり"
+    ],
+    "arti": "ayam panggang",
+    "blok": 8,
+    "catatan": [],
+    "raw": "378 焼き鳥 やきとり ayam panggang"
+  },
+  {
+    "id": "379",
+    "no": 379,
+    "kanji": "卵",
+    "tipe": "kanji",
+    "bacaan": [
+      "たまご"
+    ],
+    "arti": "telur",
+    "blok": 8,
+    "catatan": [],
+    "raw": "379卵 たまご telur"
+  },
+  {
+    "id": "380",
+    "no": 380,
+    "kanji": "人",
+    "tipe": "kanji",
+    "bacaan": [
+      "ひと",
+      "じん"
+    ],
+    "arti": "orang",
+    "blok": 8,
+    "catatan": [],
+    "raw": "380人 ひと,じん orang"
+  },
+  {
+    "id": "381",
+    "no": 381,
+    "kanji": "何人",
+    "tipe": "kosakata",
+    "bacaan": [
+      "なんにん"
+    ],
+    "arti": "berapa orang",
+    "blok": 8,
+    "catatan": [],
+    "raw": "381何人 なんにん berapa orang"
+  },
+  {
+    "id": "382",
+    "no": 382,
+    "kanji": "春",
+    "tipe": "kanji",
+    "bacaan": [
+      "はる"
+    ],
+    "arti": "musim semi",
+    "blok": 8,
+    "catatan": [],
+    "raw": "382 春 はる musim semi"
+  },
+  {
+    "id": "383",
+    "no": 383,
+    "kanji": "秋",
+    "tipe": "kanji",
+    "bacaan": [
+      "あき"
+    ],
+    "arti": "musim gugur",
+    "blok": 8,
+    "catatan": [],
+    "raw": "383 秋 あき musim gugur"
+  },
+  {
+    "id": "384",
+    "no": 384,
+    "kanji": "夏",
+    "tipe": "kanji",
+    "bacaan": [
+      "なつ"
+    ],
+    "arti": "musim panas",
+    "blok": 8,
+    "catatan": [],
+    "raw": "384夏 なつ musim panas"
+  },
+  {
+    "id": "385",
+    "no": 385,
+    "kanji": "夏休み",
+    "tipe": "kosakata",
+    "bacaan": [
+      "なつやすみ"
+    ],
+    "arti": "Libur Musim Panas",
+    "blok": 8,
+    "catatan": [],
+    "raw": "385. 夏休み なつやすみ Libur Musim Panas"
+  },
+  {
+    "id": "386",
+    "no": 386,
+    "kanji": "冬",
+    "tipe": "kanji",
+    "bacaan": [
+      "ふゆ"
+    ],
+    "arti": "musim dingin",
+    "blok": 8,
+    "catatan": [],
+    "raw": "386 冬 ふゆ musim dingin"
+  },
+  {
+    "id": "387",
+    "no": 387,
+    "kanji": "東",
+    "tipe": "kanji",
+    "bacaan": [
+      "ひがし"
+    ],
+    "arti": "timur",
+    "blok": 8,
+    "catatan": [],
+    "raw": "387東 ひがし timur"
+  },
+  {
+    "id": "388",
+    "no": 388,
+    "kanji": "南",
+    "tipe": "kanji",
+    "bacaan": [
+      "みなみ"
+    ],
+    "arti": "selatan",
+    "blok": 8,
+    "catatan": [],
+    "raw": "388 南 みなみ selatan"
+  },
+  {
+    "id": "389",
+    "no": 389,
+    "kanji": "北",
+    "tipe": "kanji",
+    "bacaan": [
+      "きた",
+      "ほっ"
+    ],
+    "arti": "utara",
+    "blok": 8,
+    "catatan": [],
+    "raw": "389北 きた 、ほっutara"
+  },
+  {
+    "id": "390",
+    "no": 390,
+    "kanji": "北海道",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ほっかいどう"
+    ],
+    "arti": "hokkaido",
+    "blok": 8,
+    "catatan": [],
+    "raw": "390. 北海道 ほっかいどう hokkaido"
+  },
+  {
+    "id": "391",
+    "no": 391,
+    "kanji": "西",
+    "tipe": "kanji",
+    "bacaan": [
+      "にし"
+    ],
+    "arti": "barat",
+    "blok": 8,
+    "catatan": [],
+    "raw": "391 西 にし barat"
+  },
+  {
+    "id": "392",
+    "no": 392,
+    "kanji": "口",
+    "tipe": "kanji",
+    "bacaan": [
+      "くち",
+      "ぐち"
+    ],
+    "arti": "mulut",
+    "blok": 8,
+    "catatan": [],
+    "raw": "392口 くち、ぐち mulut"
+  },
+  {
+    "id": "393",
+    "no": 393,
+    "kanji": "窓",
+    "tipe": "kanji",
+    "bacaan": [
+      "まど"
+    ],
+    "arti": "jendela",
+    "blok": 8,
+    "catatan": [],
+    "raw": "393窓 : まど jendela"
+  },
+  {
+    "id": "394",
+    "no": 394,
+    "kanji": "窓口",
+    "tipe": "kosakata",
+    "bacaan": [
+      "まどぐち"
+    ],
+    "arti": "loket",
+    "blok": 8,
+    "catatan": [],
+    "raw": "394 窓口 まどぐち loket"
+  },
+  {
+    "id": "395",
+    "no": 395,
+    "kanji": "入口",
+    "tipe": "kosakata",
+    "bacaan": [
+      "いりぐち"
+    ],
+    "arti": "pintu masuk",
+    "blok": 8,
+    "catatan": [],
+    "raw": "395入口 いりぐち pintu masuk"
+  },
+  {
+    "id": "396",
+    "no": 396,
+    "kanji": "出口",
+    "tipe": "kosakata",
+    "bacaan": [
+      "でぐち"
+    ],
+    "arti": "pintu keluar",
+    "blok": 8,
+    "catatan": [],
+    "raw": "396出口 でぐち pintu keluar"
+  },
+  {
+    "id": "397",
+    "no": 397,
+    "kanji": "東口",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ひがしぐち"
+    ],
+    "arti": "pintu keluar timur",
+    "blok": 8,
+    "catatan": [],
+    "raw": "397東口 ひがしぐち pintu keluar timur"
+  },
+  {
+    "id": "398",
+    "no": 398,
+    "kanji": "西口",
+    "tipe": "kosakata",
+    "bacaan": [
+      "にしぐち"
+    ],
+    "arti": "Pintu keluar barat",
+    "blok": 8,
+    "catatan": [],
+    "raw": "398西口 にしぐち Pintu keluar barat"
+  },
+  {
+    "id": "399",
+    "no": 399,
+    "kanji": "北口",
+    "tipe": "kosakata",
+    "bacaan": [
+      "きたぐち"
+    ],
+    "arti": "Pintu keluar utara",
+    "blok": 8,
+    "catatan": [],
+    "raw": "399北口 きたぐち Pintu keluar utara"
+  },
+  {
+    "id": "400",
+    "no": 400,
+    "kanji": "南口",
+    "tipe": "kosakata",
+    "bacaan": [
+      "みなみぐち"
+    ],
+    "arti": "pintu keluar selatan",
+    "blok": 8,
+    "catatan": [],
+    "raw": "400 南口 みなみぐち pintu keluar selatan"
   }
 ]
