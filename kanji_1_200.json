@@ -4078,6 +4078,22 @@
     "raw": "304. 下手 へた Bodoh"
   },
   {
+    "id": "839",
+    "no": 839,
+    "kanji": "下げる",
+    "tipe": "kanji",
+    "bacaan": [
+      "さげる",
+      "さが"
+    ],
+    "arti": "menurunkan/turun",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "839. 下げる さげる、さが menurunkan/turun"
+  },
+  {
     "id": "305",
     "no": 305,
     "kanji": "上",
@@ -4198,6 +4214,21 @@
     "raw": "313.新しい あたらし、しん baru"
   },
   {
+    "id": "893",
+    "no": 893,
+    "kanji": "新鮮な",
+    "tipe": "kosakata",
+    "bacaan": [
+      "しんせんな"
+    ],
+    "arti": "segar(barang)",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "893. 新鮮な しんせんな segar(barang)"
+  },
+  {
     "id": "314",
     "no": 314,
     "kanji": "友達",
@@ -4209,6 +4240,21 @@
     "blok": 7,
     "catatan": [],
     "raw": "314. 友達 ともだち Teman"
+  },
+  {
+    "id": "758",
+    "no": 758,
+    "kanji": "抜きます",
+    "tipe": "kanji",
+    "bacaan": [
+      "ぬきます"
+    ],
+    "arti": "mencabut/tanpa",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "758. 抜きます ぬきます mencabut/tanpa"
   },
   {
     "id": "315",
@@ -4236,6 +4282,51 @@
     "blok": 7,
     "catatan": [],
     "raw": "316. 子供 こども Anak-anak"
+  },
+  {
+    "id": "792",
+    "no": 792,
+    "kanji": "電子",
+    "tipe": "kosakata",
+    "bacaan": [
+      "でんし"
+    ],
+    "arti": "elektronik",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "792. 電子 でんし elektronik"
+  },
+  {
+    "id": "881",
+    "no": 881,
+    "kanji": "お菓子",
+    "tipe": "kosakata",
+    "bacaan": [
+      "おかし"
+    ],
+    "arti": "makanan ringan",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "881. お菓子 おかし makanan ringan"
+  },
+  {
+    "id": "814",
+    "no": 814,
+    "kanji": "親子丼",
+    "tipe": "kosakata",
+    "bacaan": [
+      "おやこどん"
+    ],
+    "arti": "oyakodon",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "814.親子丼 おやこどん oyakodon"
   },
   {
     "id": "317",
@@ -4647,6 +4738,36 @@
     "raw": "346.身長 しんちょうtinggi badan"
   },
   {
+    "id": "794",
+    "no": 794,
+    "kanji": "成長",
+    "tipe": "kosakata",
+    "bacaan": [
+      "せいちょう"
+    ],
+    "arti": "pertumbuhan",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "794. 成長 せいちょう pertumbuhan"
+  },
+  {
+    "id": "793",
+    "no": 793,
+    "kanji": "長生き",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ながいき"
+    ],
+    "arti": "umur panjang",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "793. 長生き ながいき umur panjang"
+  },
+  {
     "id": "347",
     "no": 347,
     "kanji": "別々",
@@ -4782,6 +4903,52 @@
     "raw": "356. 受験 じゅけん ikut Ujian"
   },
   {
+    "id": "712",
+    "no": 712,
+    "kanji": "受ける",
+    "tipe": "kanji",
+    "bacaan": [
+      "うける",
+      "じゅ"
+    ],
+    "arti": "mengikuti",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "712.受ける うける、じゅ mengikuti"
+  },
+  {
+    "id": "883",
+    "no": 883,
+    "kanji": "受付",
+    "tipe": "kosakata",
+    "bacaan": [
+      "うけつけ"
+    ],
+    "arti": "resepsionis",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "883. 受付 うけつけ resepsionis"
+  },
+  {
+    "id": "853",
+    "no": 853,
+    "kanji": "付ける",
+    "tipe": "kanji",
+    "bacaan": [
+      "つける"
+    ],
+    "arti": "mengenakan,melekatkan",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "853. 付ける つける mengenakan,melekatkan"
+  },
+  {
     "id": "357",
     "no": 357,
     "kanji": "合う",
@@ -4860,6 +5027,51 @@
     "blok": 7,
     "catatan": [],
     "raw": "362.試合 しあい Pertandingan"
+  },
+  {
+    "id": "874",
+    "no": 874,
+    "kanji": "場合",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ばあい"
+    ],
+    "arti": "jika(keadaan)",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "874. 場合 ばあい jika(keadaan)"
+  },
+  {
+    "id": "880",
+    "no": 880,
+    "kanji": "拾う",
+    "tipe": "kanji",
+    "bacaan": [
+      "ひろう"
+    ],
+    "arti": "memungut",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "880. 拾う ひろう memungut"
+  },
+  {
+    "id": "896",
+    "no": 896,
+    "kanji": "浴びる",
+    "tipe": "kanji",
+    "bacaan": [
+      "あびる"
+    ],
+    "arti": "mandi",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "896. 浴びる あびる mandi"
   },
   {
     "id": "363",
@@ -5115,6 +5327,21 @@
     "raw": "381何人 なんにん berapa orang"
   },
   {
+    "id": "803",
+    "no": 803,
+    "kanji": "ご主人",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ごしゅじん"
+    ],
+    "arti": "suami",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "803. ご主人 ごしゅじん suami"
+  },
+  {
     "id": "382",
     "no": 382,
     "kanji": "春",
@@ -5362,232 +5589,5 @@
     "blok": 7,
     "catatan": [],
     "raw": "400 南口 みなみぐち pintu keluar selatan"
-  },
-  {
-    "id": "839",
-    "no": 839,
-    "kanji": "下げる",
-    "tipe": "kanji",
-    "bacaan": [
-      "さげる",
-      "さが"
-    ],
-    "arti": "menurunkan/turun",
-    "blok": 7,
-    "catatan": [
-      "no tidak urut di Word"
-    ],
-    "raw": "839. 下げる さげる、さが menurunkan/turun"
-  },
-  {
-    "id": "893",
-    "no": 893,
-    "kanji": "新鮮な",
-    "tipe": "kosakata",
-    "bacaan": [
-      "しんせんな"
-    ],
-    "arti": "segar(barang)",
-    "blok": 7,
-    "catatan": [
-      "no tidak urut di Word"
-    ],
-    "raw": "893. 新鮮な しんせんな segar(barang)"
-  },
-  {
-    "id": "758",
-    "no": 758,
-    "kanji": "抜きます",
-    "tipe": "kanji",
-    "bacaan": [
-      "ぬきます"
-    ],
-    "arti": "mencabut/tanpa",
-    "blok": 7,
-    "catatan": [
-      "no tidak urut di Word"
-    ],
-    "raw": "758. 抜きます ぬきます mencabut/tanpa"
-  },
-  {
-    "id": "792",
-    "no": 792,
-    "kanji": "電子",
-    "tipe": "kosakata",
-    "bacaan": [
-      "でんし"
-    ],
-    "arti": "elektronik",
-    "blok": 7,
-    "catatan": [
-      "no tidak urut di Word"
-    ],
-    "raw": "792. 電子 でんし elektronik"
-  },
-  {
-    "id": "881",
-    "no": 881,
-    "kanji": "お菓子",
-    "tipe": "kosakata",
-    "bacaan": [
-      "おかし"
-    ],
-    "arti": "makanan ringan",
-    "blok": 7,
-    "catatan": [
-      "no tidak urut di Word"
-    ],
-    "raw": "881. お菓子 おかし makanan ringan"
-  },
-  {
-    "id": "814",
-    "no": 814,
-    "kanji": "親子丼",
-    "tipe": "kosakata",
-    "bacaan": [
-      "おやこどん"
-    ],
-    "arti": "oyakodon",
-    "blok": 7,
-    "catatan": [
-      "no tidak urut di Word"
-    ],
-    "raw": "814.親子丼 おやこどん oyakodon"
-  },
-  {
-    "id": "794",
-    "no": 794,
-    "kanji": "成長",
-    "tipe": "kosakata",
-    "bacaan": [
-      "せいちょう"
-    ],
-    "arti": "pertumbuhan",
-    "blok": 7,
-    "catatan": [
-      "no tidak urut di Word"
-    ],
-    "raw": "794. 成長 せいちょう pertumbuhan"
-  },
-  {
-    "id": "793",
-    "no": 793,
-    "kanji": "長生き",
-    "tipe": "kosakata",
-    "bacaan": [
-      "ながいき"
-    ],
-    "arti": "umur panjang",
-    "blok": 7,
-    "catatan": [
-      "no tidak urut di Word"
-    ],
-    "raw": "793. 長生き ながいき umur panjang"
-  },
-  {
-    "id": "712",
-    "no": 712,
-    "kanji": "受ける",
-    "tipe": "kanji",
-    "bacaan": [
-      "うける",
-      "じゅ"
-    ],
-    "arti": "mengikuti",
-    "blok": 7,
-    "catatan": [
-      "no tidak urut di Word"
-    ],
-    "raw": "712.受ける うける、じゅ mengikuti"
-  },
-  {
-    "id": "883",
-    "no": 883,
-    "kanji": "受付",
-    "tipe": "kosakata",
-    "bacaan": [
-      "うけつけ"
-    ],
-    "arti": "resepsionis",
-    "blok": 7,
-    "catatan": [
-      "no tidak urut di Word"
-    ],
-    "raw": "883. 受付 うけつけ resepsionis"
-  },
-  {
-    "id": "853",
-    "no": 853,
-    "kanji": "付ける",
-    "tipe": "kanji",
-    "bacaan": [
-      "つける"
-    ],
-    "arti": "mengenakan,melekatkan",
-    "blok": 7,
-    "catatan": [
-      "no tidak urut di Word"
-    ],
-    "raw": "853. 付ける つける mengenakan,melekatkan"
-  },
-  {
-    "id": "874",
-    "no": 874,
-    "kanji": "場合",
-    "tipe": "kosakata",
-    "bacaan": [
-      "ばあい"
-    ],
-    "arti": "jika(keadaan)",
-    "blok": 7,
-    "catatan": [
-      "no tidak urut di Word"
-    ],
-    "raw": "874. 場合 ばあい jika(keadaan)"
-  },
-  {
-    "id": "880",
-    "no": 880,
-    "kanji": "拾う",
-    "tipe": "kanji",
-    "bacaan": [
-      "ひろう"
-    ],
-    "arti": "memungut",
-    "blok": 7,
-    "catatan": [
-      "no tidak urut di Word"
-    ],
-    "raw": "880. 拾う ひろう memungut"
-  },
-  {
-    "id": "896",
-    "no": 896,
-    "kanji": "浴びる",
-    "tipe": "kanji",
-    "bacaan": [
-      "あびる"
-    ],
-    "arti": "mandi",
-    "blok": 7,
-    "catatan": [
-      "no tidak urut di Word"
-    ],
-    "raw": "896. 浴びる あびる mandi"
-  },
-  {
-    "id": "803",
-    "no": 803,
-    "kanji": "ご主人",
-    "tipe": "kosakata",
-    "bacaan": [
-      "ごしゅじん"
-    ],
-    "arti": "suami",
-    "blok": 7,
-    "catatan": [
-      "no tidak urut di Word"
-    ],
-    "raw": "803. ご主人 ごしゅじん suami"
   }
 ]
