@@ -21,13 +21,14 @@ window.App = (function() {
 
   let currentView = 'home';
 
-  // Latar belakang melayang (#bg-floaters) — 10 foto lingkaran dekoratif di
-  // belakang aplikasi. Dipanggil SEKALI dari init(); Views.renderBackground-
-  // Floaters() sendiri idempoten (guard id), jadi aman dari duplikat.
+  // Latar belakang melayang (#bg-floaters) — untuk sementara DIMATIKAN lewat
+  // ENABLE_BG_FLOATERS di views.js. Dipanggil SEKALI dari init(); fungsi Views
+  // idempoten dan kini mengembalikan null saat sakelar mati.
   function mountBackgroundFloaters() {
     if (document.getElementById('bg-floaters')) return;
     if (typeof Views === 'undefined' || typeof Views.renderBackgroundFloaters !== 'function') return;
-    document.body.append(Views.renderBackgroundFloaters());
+    const layer = Views.renderBackgroundFloaters();
+    if (layer) document.body.append(layer);
   }
 
   // Gerbang kode akses: kalau belum pernah unlock, tampilkan overlay-nya dan

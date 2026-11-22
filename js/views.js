@@ -5,6 +5,10 @@ window.Views = (function() {
   let currentView = 'home';
   const BLOCK_NUMBERS = [1, 2, 3, 4, 5, 6, 7];
 
+  // Sakelar latar foto melayang. MATI untuk sementara; set true + kembalikan
+  // BG_COUNT di sw.js & daftar gambar di build_zip saat ingin dinyalakan lagi.
+  const ENABLE_BG_FLOATERS = false;
+
   // Blok 7 = seluruh area 300-400 (termasuk entri nyasar bernomor 700-896).
   function blockRangeLabel(blockNo) {
     const start = (blockNo - 1) * 50 + 1;
@@ -88,6 +92,7 @@ window.Views = (function() {
   }
 
   function renderBackgroundFloaters() {
+    if (!ENABLE_BG_FLOATERS) return null;
     const existing = document.getElementById('bg-floaters');
     if (existing) return existing; // sudah terpakai — jangan duplikat
 
