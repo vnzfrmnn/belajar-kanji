@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'kanji-v1.12.0';
+const CACHE_VERSION = 'kanji-v1.13.0';
 const CACHE_NAME = `kanji-cache-${CACHE_VERSION}`;
 
 // Foto latar (image/bg-N.jpg). Samakan BG_COUNT dengan daftar di views.js.

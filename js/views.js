@@ -3,7 +3,14 @@ window.Views = (function() {
 
   let kanjiData = [];
   let currentView = 'home';
-  const BLOCK_NUMBERS = [1, 2, 3, 4, 5, 6, 7, 8];
+  const BLOCK_NUMBERS = [1, 2, 3, 4, 5, 6, 7];
+
+  // Blok 7 = seluruh area 300-400 (termasuk entri nyasar bernomor 700-896).
+  function blockRangeLabel(blockNo) {
+    const start = (blockNo - 1) * 50 + 1;
+    const end = blockNo === 2 ? 100 : (blockNo === 7 ? 400 : blockNo * 50);
+    return `No ${start}-${end}`;
+  }
 
   // Konfigurasi link sosial — satu sumber untuk footer.
   const SOCIAL_LINKS = [
@@ -195,9 +202,6 @@ window.Views = (function() {
       const quizBest = KanjiProgress.getQuizBest(blockNo);
       const passed = quizBest !== null && quizBest >= 80;
 
-      const rangeStart = (blockNo - 1) * 50 + 1;
-      const rangeEnd = blockNo === 2 ? 100 : blockNo * 50;
-
       const blockCard = el('div', {
         className: 'card block-card card-clickable',
         onclick: () => window.App.navigateToBlock(blockNo)
@@ -205,7 +209,7 @@ window.Views = (function() {
         el('div', { className: 'block-header' },
           el('div', {},
             el('h3', { className: 'block-title' }, `Blok ${blockNo}`),
-            el('div', { className: 'block-range' }, `No ${rangeStart}-${rangeEnd} • ${entries.length} entri`)
+            el('div', { className: 'block-range' }, `${blockRangeLabel(blockNo)} • ${entries.length} entri`)
           ),
           passed ? el('span', { className: 'badge badge-success' }, '✓ Lulus') : null
         ),
@@ -1258,7 +1262,7 @@ window.Views = (function() {
     const header = el('div', { className: 'card', style: 'margin-bottom: 24px;' },
       el('h2', { className: 'section-title' }, `Blok ${blockNo}`),
       el('div', { style: 'color: var(--color-text-secondary); margin-bottom: 16px;' },
-        `No ${(blockNo - 1) * 50 + 1}-${blockNo === 2 ? 100 : blockNo * 50} • ${entries.length} entri`
+        `${blockRangeLabel(blockNo)} • ${entries.length} entri`
       ),
       el('div', { className: 'block-stats' },
         el('div', { className: 'stat-item' },

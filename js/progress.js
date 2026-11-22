@@ -3,8 +3,8 @@
   'use strict';
 
   var PREFIX = 'kanji.v1.';
-  var BLOCK_TOTALS = [0, 50, 51, 50, 50, 50, 50, 50, 50]; // index = nomor blok (blok 7-8 = entri 301-400)
-  var TOTAL_ENTRIES = 401;
+  var BLOCK_TOTALS = [0, 50, 51, 50, 50, 50, 50, 115]; // index = nomor blok (blok 7 = seluruh area 300-400)
+  var TOTAL_ENTRIES = 416;
   var KEYS = ['status', 'quizBest', 'review', 'lastBlock'];
 
   var memory = {};
@@ -60,14 +60,16 @@
     }
   }
 
-  // Blok diturunkan dari angka pada id ("1".."200", "74b").
+  // Blok diturunkan dari angka pada id ("1".."200", "74b", "839" = nyasar).
   function blockOfId(id) {
     var match = /^(\d+)/.exec(String(id));
     if (!match) return 0;
     var no = parseInt(match[1], 10);
-    if (no < 1 || no > TOTAL_ENTRIES) return 0;
-    var block = Math.ceil(no / 50);
-    return block >= 1 && block <= 8 ? block : 0;
+    if (no < 1 || no > 900) return 0; // entri nyasar area 300-400 sampai 896
+    if (no <= 300) return Math.ceil(no / 50); // blok 1-6 (74b -> 2)
+    if (no <= 400) return 7;                  // 301-400 = satu blok
+    if (no >= 700) return 7;                  // entri nyasar ikut blok 7
+    return 0;
   }
 
   function normalizeScope(scope, allowZero) {
@@ -76,7 +78,7 @@
       throw new Error('Scope tidak valid: ' + scope);
     }
     if (allowZero && n === 0) return 0;
-    if (n >= 1 && n <= 8) return n;
+    if (n >= 1 && n <= 7) return n;
     throw new Error('Scope tidak valid: ' + scope);
   }
 
@@ -127,7 +129,7 @@
 
   function getBlockProgress(blockNo) {
     var n = Number(blockNo);
-    if (!isFinite(n) || Math.floor(n) !== n || n < 1 || n > 8) {
+    if (!isFinite(n) || Math.floor(n) !== n || n < 1 || n > 7) {
       throw new Error('Blok tidak valid: ' + blockNo);
     }
     return getScopeProgress(n);
@@ -230,13 +232,13 @@
     var value = read('lastBlock', null);
     if (typeof value !== 'number' || !isFinite(value)) return null;
     if (value === 0) return 0;
-    if (Math.floor(value) === value && value >= 1 && value <= 8) return value;
+    if (Math.floor(value) === value && value >= 1 && value <= 7) return value;
     return null;
   }
 
   function setLastBlock(blockNo) {
     var n = Number(blockNo);
-    if (!isFinite(n) || Math.floor(n) !== n || n < 0 || n > 8) {
+    if (!isFinite(n) || Math.floor(n) !== n || n < 0 || n > 7) {
       throw new Error('Blok terakhir tidak valid: ' + blockNo);
     }
     write('lastBlock', n);

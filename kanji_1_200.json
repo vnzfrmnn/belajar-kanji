@@ -4711,7 +4711,7 @@
       "はいそう"
     ],
     "arti": "pengiriman",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "351配送 はいそう pengiriman"
   },
@@ -4724,7 +4724,7 @@
       "おさけ"
     ],
     "arti": "Sake",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "352. お酒 おさけ Sake"
   },
@@ -4738,7 +4738,7 @@
       "し"
     ],
     "arti": "mencoba",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "353試す ためす, こころ、し mencoba"
   },
@@ -4751,7 +4751,7 @@
       "しけん"
     ],
     "arti": "Ujian",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "354. 試験 しけん Ujian"
   },
@@ -4764,7 +4764,7 @@
       "けいけん"
     ],
     "arti": "Pengalaman",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "355. 経験 けいけん Pengalaman"
   },
@@ -4777,7 +4777,7 @@
       "じゅけん"
     ],
     "arti": "ikut Ujian",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "356. 受験 じゅけん ikut Ujian"
   },
@@ -4791,7 +4791,7 @@
       "ごう"
     ],
     "arti": "cocok",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "357合う あう、ごう cocok"
   },
@@ -4804,7 +4804,7 @@
       "ごうかく"
     ],
     "arti": "Lulus",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "358. 合格 ごうかく Lulus"
   },
@@ -4818,7 +4818,7 @@
       "けい"
     ],
     "arti": "mengukur",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "359.計る はかる、けいmengukur"
   },
@@ -4831,7 +4831,7 @@
       "ごうけい"
     ],
     "arti": "Jumlah",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "360. 合計 ごうけい Jumlah"
   },
@@ -4844,7 +4844,7 @@
       "けいかく"
     ],
     "arti": "Perencanaan",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "361. 計画 けいかく Perencanaan"
   },
@@ -4857,7 +4857,7 @@
       "しあい"
     ],
     "arti": "Pertandingan",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "362.試合 しあい Pertandingan"
   },
@@ -4872,7 +4872,7 @@
       "や"
     ],
     "arti": "Rumah",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "363.家 いえ、か、や Rumah"
   },
@@ -4885,7 +4885,7 @@
       "やちん"
     ],
     "arti": "sewa rumah",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "368. 家賃 やちん sewa rumah"
   },
@@ -4898,7 +4898,7 @@
       "かぞく"
     ],
     "arti": "keluarga",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "367家族 かぞくkeluarga"
   },
@@ -4911,7 +4911,7 @@
       "かてい"
     ],
     "arti": "keluarga rumah tangga",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "368家庭 かてい keluarga rumah tangga"
   },
@@ -4925,7 +4925,7 @@
       "てい"
     ],
     "arti": "halaman",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "797. 庭 にわ、てい halaman"
   },
@@ -4939,7 +4939,7 @@
       "ない"
     ],
     "arti": "dalam",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "369 内 うち、ない dalam"
   },
@@ -4952,7 +4952,7 @@
       "こくない"
     ],
     "arti": "lokal",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "370国内 こくない lokal"
   },
@@ -4965,7 +4965,7 @@
       "にく"
     ],
     "arti": "daging",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "371肉 にく daging"
   },
@@ -4979,7 +4979,7 @@
       "ぎゅう"
     ],
     "arti": "Sapi",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "372. 牛 うし 、ぎゅう Sapi"
   },
@@ -4992,7 +4992,7 @@
       "ぎゅうどん"
     ],
     "arti": "makanan daging sapi iris",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "373. 牛丼 ぎゅうどん makanan daging sapi iris"
   },
@@ -5005,7 +5005,7 @@
       "ぎゅうにく"
     ],
     "arti": "daging sapi",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "374牛肉 ぎゅうにく daging sapi"
   },
@@ -5018,7 +5018,7 @@
       "ぎゅうにゅう"
     ],
     "arti": "susu sapi",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "827. 牛乳 ぎゅうにゅう susu sapi"
   },
@@ -5031,7 +5031,7 @@
       "ぶたにく"
     ],
     "arti": "daging babi",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "375豚肉 ぶたにく daging babi"
   },
@@ -5044,7 +5044,7 @@
       "やく"
     ],
     "arti": "membakar",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "376焼く やく membakar"
   },
@@ -5057,7 +5057,7 @@
       "やきにく"
     ],
     "arti": "daging panggang",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "377焼肉 やきにく daging panggang"
   },
@@ -5070,7 +5070,7 @@
       "やきとり"
     ],
     "arti": "ayam panggang",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "378 焼き鳥 やきとり ayam panggang"
   },
@@ -5083,7 +5083,7 @@
       "たまご"
     ],
     "arti": "telur",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "379卵 たまご telur"
   },
@@ -5097,7 +5097,7 @@
       "じん"
     ],
     "arti": "orang",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "380人 ひと,じん orang"
   },
@@ -5110,7 +5110,7 @@
       "なんにん"
     ],
     "arti": "berapa orang",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "381何人 なんにん berapa orang"
   },
@@ -5123,7 +5123,7 @@
       "はる"
     ],
     "arti": "musim semi",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "382 春 はる musim semi"
   },
@@ -5136,7 +5136,7 @@
       "あき"
     ],
     "arti": "musim gugur",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "383 秋 あき musim gugur"
   },
@@ -5149,7 +5149,7 @@
       "なつ"
     ],
     "arti": "musim panas",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "384夏 なつ musim panas"
   },
@@ -5162,7 +5162,7 @@
       "なつやすみ"
     ],
     "arti": "Libur Musim Panas",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "385. 夏休み なつやすみ Libur Musim Panas"
   },
@@ -5175,7 +5175,7 @@
       "ふゆ"
     ],
     "arti": "musim dingin",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "386 冬 ふゆ musim dingin"
   },
@@ -5188,7 +5188,7 @@
       "ひがし"
     ],
     "arti": "timur",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "387東 ひがし timur"
   },
@@ -5201,7 +5201,7 @@
       "みなみ"
     ],
     "arti": "selatan",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "388 南 みなみ selatan"
   },
@@ -5215,7 +5215,7 @@
       "ほっ"
     ],
     "arti": "utara",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "389北 きた 、ほっutara"
   },
@@ -5228,7 +5228,7 @@
       "ほっかいどう"
     ],
     "arti": "hokkaido",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "390. 北海道 ほっかいどう hokkaido"
   },
@@ -5241,7 +5241,7 @@
       "にし"
     ],
     "arti": "barat",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "391 西 にし barat"
   },
@@ -5255,7 +5255,7 @@
       "ぐち"
     ],
     "arti": "mulut",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "392口 くち、ぐち mulut"
   },
@@ -5268,7 +5268,7 @@
       "まど"
     ],
     "arti": "jendela",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "393窓 : まど jendela"
   },
@@ -5281,7 +5281,7 @@
       "まどぐち"
     ],
     "arti": "loket",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "394 窓口 まどぐち loket"
   },
@@ -5294,7 +5294,7 @@
       "いりぐち"
     ],
     "arti": "pintu masuk",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "395入口 いりぐち pintu masuk"
   },
@@ -5307,7 +5307,7 @@
       "でぐち"
     ],
     "arti": "pintu keluar",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "396出口 でぐち pintu keluar"
   },
@@ -5320,7 +5320,7 @@
       "ひがしぐち"
     ],
     "arti": "pintu keluar timur",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "397東口 ひがしぐち pintu keluar timur"
   },
@@ -5333,7 +5333,7 @@
       "にしぐち"
     ],
     "arti": "Pintu keluar barat",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "398西口 にしぐち Pintu keluar barat"
   },
@@ -5346,7 +5346,7 @@
       "きたぐち"
     ],
     "arti": "Pintu keluar utara",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "399北口 きたぐち Pintu keluar utara"
   },
@@ -5359,8 +5359,235 @@
       "みなみぐち"
     ],
     "arti": "pintu keluar selatan",
-    "blok": 8,
+    "blok": 7,
     "catatan": [],
     "raw": "400 南口 みなみぐち pintu keluar selatan"
+  },
+  {
+    "id": "839",
+    "no": 839,
+    "kanji": "下げる",
+    "tipe": "kanji",
+    "bacaan": [
+      "さげる",
+      "さが"
+    ],
+    "arti": "menurunkan/turun",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "839. 下げる さげる、さが menurunkan/turun"
+  },
+  {
+    "id": "893",
+    "no": 893,
+    "kanji": "新鮮な",
+    "tipe": "kosakata",
+    "bacaan": [
+      "しんせんな"
+    ],
+    "arti": "segar(barang)",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "893. 新鮮な しんせんな segar(barang)"
+  },
+  {
+    "id": "758",
+    "no": 758,
+    "kanji": "抜きます",
+    "tipe": "kanji",
+    "bacaan": [
+      "ぬきます"
+    ],
+    "arti": "mencabut/tanpa",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "758. 抜きます ぬきます mencabut/tanpa"
+  },
+  {
+    "id": "792",
+    "no": 792,
+    "kanji": "電子",
+    "tipe": "kosakata",
+    "bacaan": [
+      "でんし"
+    ],
+    "arti": "elektronik",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "792. 電子 でんし elektronik"
+  },
+  {
+    "id": "881",
+    "no": 881,
+    "kanji": "お菓子",
+    "tipe": "kosakata",
+    "bacaan": [
+      "おかし"
+    ],
+    "arti": "makanan ringan",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "881. お菓子 おかし makanan ringan"
+  },
+  {
+    "id": "814",
+    "no": 814,
+    "kanji": "親子丼",
+    "tipe": "kosakata",
+    "bacaan": [
+      "おやこどん"
+    ],
+    "arti": "oyakodon",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "814.親子丼 おやこどん oyakodon"
+  },
+  {
+    "id": "794",
+    "no": 794,
+    "kanji": "成長",
+    "tipe": "kosakata",
+    "bacaan": [
+      "せいちょう"
+    ],
+    "arti": "pertumbuhan",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "794. 成長 せいちょう pertumbuhan"
+  },
+  {
+    "id": "793",
+    "no": 793,
+    "kanji": "長生き",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ながいき"
+    ],
+    "arti": "umur panjang",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "793. 長生き ながいき umur panjang"
+  },
+  {
+    "id": "712",
+    "no": 712,
+    "kanji": "受ける",
+    "tipe": "kanji",
+    "bacaan": [
+      "うける",
+      "じゅ"
+    ],
+    "arti": "mengikuti",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "712.受ける うける、じゅ mengikuti"
+  },
+  {
+    "id": "883",
+    "no": 883,
+    "kanji": "受付",
+    "tipe": "kosakata",
+    "bacaan": [
+      "うけつけ"
+    ],
+    "arti": "resepsionis",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "883. 受付 うけつけ resepsionis"
+  },
+  {
+    "id": "853",
+    "no": 853,
+    "kanji": "付ける",
+    "tipe": "kanji",
+    "bacaan": [
+      "つける"
+    ],
+    "arti": "mengenakan,melekatkan",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "853. 付ける つける mengenakan,melekatkan"
+  },
+  {
+    "id": "874",
+    "no": 874,
+    "kanji": "場合",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ばあい"
+    ],
+    "arti": "jika(keadaan)",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "874. 場合 ばあい jika(keadaan)"
+  },
+  {
+    "id": "880",
+    "no": 880,
+    "kanji": "拾う",
+    "tipe": "kanji",
+    "bacaan": [
+      "ひろう"
+    ],
+    "arti": "memungut",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "880. 拾う ひろう memungut"
+  },
+  {
+    "id": "896",
+    "no": 896,
+    "kanji": "浴びる",
+    "tipe": "kanji",
+    "bacaan": [
+      "あびる"
+    ],
+    "arti": "mandi",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "896. 浴びる あびる mandi"
+  },
+  {
+    "id": "803",
+    "no": 803,
+    "kanji": "ご主人",
+    "tipe": "kosakata",
+    "bacaan": [
+      "ごしゅじん"
+    ],
+    "arti": "suami",
+    "blok": 7,
+    "catatan": [
+      "no tidak urut di Word"
+    ],
+    "raw": "803. ご主人 ごしゅじん suami"
   }
 ]
