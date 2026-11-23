@@ -3,11 +3,13 @@
   'use strict';
 
   var PREFIX = 'kanji.v1.';
-  var BLOCK_TOTALS = [0, 50, 51, 50, 50, 50, 50, 115]; // index = nomor blok (blok 7 = seluruh area 300-400)
-  var TOTAL_ENTRIES = 416;
+  // Nilai cadangan; ditimpa setData() dengan hitungan nyata dari JSON.
+  var BLOCK_TOTALS = [0, 50, 51, 50, 50, 50, 50, 115, 120]; // blok 7 = area 300-400, blok 8 = 401-500
+  var TOTAL_ENTRIES = 536;
   var KEYS = ['status', 'quizBest', 'review', 'lastBlock'];
 
   var memory = {};
+  var blockById = {}; // diisi dari data (id -> blok) agar entri nyasar tetap tepat blok
 
   function getStorage() {
     try {
@@ -60,16 +62,39 @@
     }
   }
 
-  // Blok diturunkan dari angka pada id ("1".."200", "74b", "839" = nyasar).
+  // Blok diturunkan dari data (id -> blok) agar entri nyasar selalu tepat blok.
+  // Fallback dipakai saat setData() belum dipanggil (mis. uji unit).
   function blockOfId(id) {
-    var match = /^(\d+)/.exec(String(id));
+    var key = String(id);
+    if (Object.prototype.hasOwnProperty.call(blockById, key)) return blockById[key];
+    var match = /^(\d+)/.exec(key);
     if (!match) return 0;
     var no = parseInt(match[1], 10);
-    if (no < 1 || no > 900) return 0; // entri nyasar area 300-400 sampai 896
+    if (no < 1 || no > 900) return 0;
     if (no <= 300) return Math.ceil(no / 50); // blok 1-6 (74b -> 2)
     if (no <= 400) return 7;                  // 301-400 = satu blok
-    if (no >= 700) return 7;                  // entri nyasar ikut blok 7
+    if (no <= 500) return 8;                  // 401-500 = blok 8
+    if (no >= 700) return 7;                  // entri nyasar area 300-400
     return 0;
+  }
+
+  // Sinkronkan total & peta blok dengan data JSON yang benar-benar dimuat.
+  function setData(data) {
+    var totals = [0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var byId = {};
+    var total = 0;
+    var list = Array.isArray(data) ? data : [];
+    list.forEach(function (entry) {
+      if (!entry) return;
+      var block = Number(entry.blok);
+      if (!(block >= 1 && block <= 8)) return;
+      byId[String(entry.id)] = block;
+      totals[block] += 1;
+      total += 1;
+    });
+    blockById = byId;
+    BLOCK_TOTALS = totals;
+    TOTAL_ENTRIES = total;
   }
 
   function normalizeScope(scope, allowZero) {
@@ -78,7 +103,7 @@
       throw new Error('Scope tidak valid: ' + scope);
     }
     if (allowZero && n === 0) return 0;
-    if (n >= 1 && n <= 7) return n;
+    if (n >= 1 && n <= 8) return n;
     throw new Error('Scope tidak valid: ' + scope);
   }
 
@@ -129,7 +154,7 @@
 
   function getBlockProgress(blockNo) {
     var n = Number(blockNo);
-    if (!isFinite(n) || Math.floor(n) !== n || n < 1 || n > 7) {
+    if (!isFinite(n) || Math.floor(n) !== n || n < 1 || n > 8) {
       throw new Error('Blok tidak valid: ' + blockNo);
     }
     return getScopeProgress(n);
@@ -232,13 +257,13 @@
     var value = read('lastBlock', null);
     if (typeof value !== 'number' || !isFinite(value)) return null;
     if (value === 0) return 0;
-    if (Math.floor(value) === value && value >= 1 && value <= 7) return value;
+    if (Math.floor(value) === value && value >= 1 && value <= 8) return value;
     return null;
   }
 
   function setLastBlock(blockNo) {
     var n = Number(blockNo);
-    if (!isFinite(n) || Math.floor(n) !== n || n < 0 || n > 7) {
+    if (!isFinite(n) || Math.floor(n) !== n || n < 0 || n > 8) {
       throw new Error('Blok terakhir tidak valid: ' + blockNo);
     }
     write('lastBlock', n);
@@ -265,6 +290,7 @@
   }
 
   global.KanjiProgress = {
+    setData: setData,
     getStatus: getStatus,
     setStatus: setStatus,
     isHafal: isHafal,

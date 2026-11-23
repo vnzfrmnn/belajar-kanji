@@ -3,16 +3,17 @@ window.Views = (function() {
 
   let kanjiData = [];
   let currentView = 'home';
-  const BLOCK_NUMBERS = [1, 2, 3, 4, 5, 6, 7];
+  const BLOCK_NUMBERS = [1, 2, 3, 4, 5, 6, 7, 8];
 
   // Sakelar latar foto melayang. MATI untuk sementara; set true + kembalikan
   // BG_COUNT di sw.js & daftar gambar di build_zip saat ingin dinyalakan lagi.
   const ENABLE_BG_FLOATERS = false;
 
   // Blok 7 = seluruh area 300-400 (termasuk entri nyasar bernomor 700-896).
+  // Blok 8 = 401-500.
   function blockRangeLabel(blockNo) {
-    const start = (blockNo - 1) * 50 + 1;
-    const end = blockNo === 2 ? 100 : (blockNo === 7 ? 400 : blockNo * 50);
+    const start = blockNo === 8 ? 401 : (blockNo - 1) * 50 + 1;
+    const end = blockNo === 2 ? 100 : (blockNo === 7 ? 400 : (blockNo === 8 ? 500 : blockNo * 50));
     return `No ${start}-${end}`;
   }
 
@@ -168,6 +169,10 @@ window.Views = (function() {
 
   function setData(data) {
     kanjiData = data;
+    // Daftarkan blok nyata ke progres supaya total & peta blok selalu sinkron.
+    if (window.KanjiProgress && typeof window.KanjiProgress.setData === 'function') {
+      window.KanjiProgress.setData(data);
+    }
   }
 
   function getData() {

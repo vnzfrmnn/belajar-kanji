@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'kanji-v1.14.0';
+const CACHE_VERSION = 'kanji-v1.15.0';
 const CACHE_NAME = `kanji-cache-${CACHE_VERSION}`;
 
 // Foto latar DIMATIKAN sementara. Set 30 lagi + ENABLE_BG_FLOATERS=true di
