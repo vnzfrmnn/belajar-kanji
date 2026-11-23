@@ -5,9 +5,8 @@ window.Views = (function() {
   let currentView = 'home';
   const BLOCK_NUMBERS = [1, 2, 3, 4, 5, 6, 7, 8];
 
-  // Sakelar latar foto melayang. MATI untuk sementara; set true + kembalikan
-  // BG_COUNT di sw.js & daftar gambar di build_zip saat ingin dinyalakan lagi.
-  const ENABLE_BG_FLOATERS = false;
+  // Sakelar latar foto melayang. AKTIF; set false untuk mematikan sementara.
+  const ENABLE_BG_FLOATERS = true;
 
   // Blok 7 = seluruh area 300-400 (termasuk entri nyasar bernomor 700-896).
   // Blok 8 = 401-500.

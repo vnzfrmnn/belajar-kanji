@@ -1,9 +1,9 @@
-const CACHE_VERSION = 'kanji-v1.15.0';
+const CACHE_VERSION = 'kanji-v1.16.0';
 const CACHE_NAME = `kanji-cache-${CACHE_VERSION}`;
 
-// Foto latar DIMATIKAN sementara. Set 30 lagi + ENABLE_BG_FLOATERS=true di
-// views.js saat ingin dinyalakan kembali.
-const BG_COUNT = 0;
+// Foto latar melayang (bg-1..bg-30). Samakan dengan ENABLE_BG_FLOATERS di
+// views.js dan daftar gambar di build_zip.ps1.
+const BG_COUNT = 30;
 const BG_ASSETS = Array.from({ length: BG_COUNT }, (_, i) => `/image/bg-${i + 1}.jpg`);
 
 const ASSETS_TO_CACHE = [
